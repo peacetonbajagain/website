@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1791879014;csrf_test_name|s:32:"c527f1e74f76e6f8078da2c846b69f3b";_ci_previous_url|s:48:"http://localhost:8080/index.php/admin/categories";beforeLoginUrl|s:37:"http://localhost:8080/index.php/admin";__ci_vars|a:2:{s:14:"beforeLoginUrl";i:1791878512;s:7:"success";s:3:"old";}user|a:1:{s:2:"id";i:1;}success|s:17:"Category deleted.";
