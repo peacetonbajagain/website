@@ -21,8 +21,8 @@
         <!-- Hero & Trending -->
         <div class="row g-4 mb-5">
             <article class="col-lg-8 position-relative overflow-hidden rounded">
-                <?php if (!empty($hero['thumbnail'])): ?>
-                    <img src="<?= esc(post_img($hero['thumbnail']), 'attr') ?>" alt="<?= esc($hero['title'], 'attr') ?>"
+                <?php if (!empty($hero['thumbnail_path'])): ?>
+                    <img src="<?= esc(post_img($hero['thumbnail_path']), 'attr') ?>" alt="<?= esc($hero['title'], 'attr') ?>"
                         class="w-100 story-image">
                 <?php else: ?>
                     <div class="w-100 story-image" aria-hidden="true"></div>

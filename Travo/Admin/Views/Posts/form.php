@@ -29,12 +29,12 @@
             <label class="form-check"><input class="form-check-input" type="checkbox" name="is_breaking_news" value="1" <?= $v('is_breaking_news') ? 'checked' : '' ?>> <span class="form-check-label">Breaking news</span></label>
             <label class="form-check"><input class="form-check-input" type="checkbox" name="is_trending" value="1" <?= $v('is_trending') ? 'checked' : '' ?>> <span class="form-check-label">Trending</span></label>
         </div>
-        <label class="form-label fw-semibold mb-0">Thumbnail (jpg/png/webp/gif, ≤3 MB)<input type="file" name="thumbnail" accept="image/*" class="form-control mt-1"></label>
-        <label class="form-label fw-semibold mb-0">Media library path<input name="thumbnail_path" value="<?= esc($v('thumbnail_path'), 'attr') ?>" placeholder="uploads/year/month/image.jpg" class="form-control mt-1"></label>
+        <label class="form-label fw-semibold mb-0">Thumbnail (JPG, PNG, GIF, or WebP; up to 5 MB)<input type="file" name="thumbnail" accept="image/jpeg,image/png,image/gif,image/webp" class="form-control mt-1"></label>
+        <input type="hidden" name="thumbnail_id" value="<?= esc($v('thumbnail_id'), 'attr') ?>">
         <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#media-picker">Choose from media library</button>
-        <?php if (! empty($post['thumbnail'])): ?>
+        <?php if (! empty($post['thumbnail_id']) && ! empty($post['thumbnail_path'])): ?>
             <div class="border rounded p-2">
-                <img src="<?= esc(post_img($post['thumbnail']), 'attr') ?>" alt="Current thumbnail" class="img-fluid rounded mb-2">
+            <img src="<?= esc(post_img($post['thumbnail_path']), 'attr') ?>" alt="Current thumbnail" class="img-fluid rounded mb-2">
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" name="remove_thumbnail" value="1" id="remove-thumbnail" <?= old('remove_thumbnail') ? 'checked' : '' ?>>
                     <label class="form-check-label" for="remove-thumbnail">Remove current image</label>
@@ -56,7 +56,7 @@
                 <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-5 g-3" data-media-grid>
                     <?php foreach ($images as $image): ?>
                         <div class="col" data-media-item data-name="<?= esc(strtolower($image['name']), 'attr') ?>">
-                            <button type="button" class="btn btn-outline-secondary p-2 w-100 h-100 text-start" data-media-path="<?= esc($image['path'], 'attr') ?>">
+                            <button type="button" class="btn btn-outline-secondary p-2 w-100 h-100 text-start" data-media-id="<?= (int) $image['id'] ?>">
                                 <img src="<?= esc($image['url'], 'attr') ?>" alt="" loading="lazy" class="w-100 object-fit-cover rounded mb-2" style="aspect-ratio: 1">
                                 <span class="d-block small text-truncate"><?= esc($image['name']) ?></span>
                             </button>
@@ -82,9 +82,9 @@ mediaSearch?.addEventListener('input', () => {
     });
     document.querySelector('[data-media-empty]')?.classList.toggle('d-none', visibleCount !== 0);
 });
-document.querySelectorAll('[data-media-path]').forEach((button) => {
+document.querySelectorAll('[data-media-id]').forEach((button) => {
     button.addEventListener('click', () => {
-        document.querySelector('[name="thumbnail_path"]').value = button.dataset.mediaPath;
+        document.querySelector('[name="thumbnail_id"]').value = button.dataset.mediaId;
         bootstrap.Modal.getOrCreateInstance(document.querySelector('#media-picker')).hide();
     });
 });

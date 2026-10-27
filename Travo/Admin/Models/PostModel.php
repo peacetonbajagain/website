@@ -9,16 +9,17 @@ class PostModel extends Model
     protected $returnType = 'array';
     protected $useSoftDeletes = true;
     protected $useTimestamps = true;
-    protected $allowedFields = ['author_id', 'title', 'slug', 'content', 'excerpt', 'thumbnail', 'is_featured',
+    protected $allowedFields = ['author_id', 'title', 'slug', 'content', 'excerpt', 'thumbnail_id', 'is_featured',
         'is_breaking_news', 'is_trending', 'meta_title', 'meta_desc', 'author_name', 'view_count', 'status', 'published_at'];
 
     /** Posts with a stable first category for existing display surfaces. */
     public function baseSelect(): static
     {
-        return $this->select("posts.*,
+        return $this->select("posts.*, uploads.path AS thumbnail_path,
             (SELECT c.title FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_title,
             (SELECT c.slug FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_slug,
-            (SELECT pc.category_id FROM post_categories pc WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_id", false);
+            (SELECT pc.category_id FROM post_categories pc WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_id", false)
+            ->join('uploads', 'uploads.id = posts.thumbnail_id', 'left');
     }
 
     public function forCategory(int $categoryId): static

@@ -1,8 +1,8 @@
 <?php /** @var array $p */ ?>
 <article class="card h-100 border-0">
     <a href="<?= base_url('blog/' . esc($p['slug'], 'url')) ?>" class="d-block overflow-hidden rounded-top">
-        <?php if (! empty($p['thumbnail'])): ?>
-            <img src="<?= esc(post_img($p['thumbnail']), 'attr') ?>" alt="<?= esc($p['title'], 'attr') ?>" loading="lazy" class="card-img-top story-image rounded-top">
+        <?php if (! empty($p['thumbnail_path'])): ?>
+            <img src="<?= esc(post_img($p['thumbnail_path']), 'attr') ?>" alt="<?= esc($p['title'], 'attr') ?>" loading="lazy" class="card-img-top story-image rounded-top">
         <?php else: ?>
             <div class="card-img-top story-image rounded-top" aria-hidden="true"></div>
         <?php endif; ?>

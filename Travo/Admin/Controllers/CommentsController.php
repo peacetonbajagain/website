@@ -16,16 +16,29 @@ class CommentsController extends BaseController
 
     public function status(int $id, string $status)
     {
-        if (in_array($status, ['approved', 'pending', 'spam'], true)) {
-            (new CommentModel())->update($id, ['status' => $status]);
-            log_activity($status, 'comments', $id);
+        if (! in_array($status, ['approved', 'pending', 'spam'], true)) {
+            return redirect()->back()->with('error', 'Choose a valid comment status.');
         }
+
+        $model = new CommentModel();
+        if (! $model->find($id)) {
+            return redirect()->back()->with('error', 'Comment not found.');
+        }
+
+        $model->update($id, ['status' => $status]);
+        log_activity($status, 'comments', $id);
+
         return redirect()->back()->with('success', 'Comment updated.');
     }
 
     public function delete(int $id)
     {
-        (new CommentModel())->delete($id);
+        $model = new CommentModel();
+        if (! $model->find($id)) {
+            return redirect()->back()->with('error', 'Comment not found.');
+        }
+
+        $model->delete($id);
         log_activity('delete', 'comments', $id);
         return redirect()->back()->with('success', 'Comment deleted.');
     }

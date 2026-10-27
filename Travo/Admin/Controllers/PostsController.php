@@ -3,8 +3,9 @@ namespace Travo\Admin\Controllers;
 
 use App\Controllers\BaseController;
 use Travo\Admin\Libraries\ContentCleaner;
-use Travo\Admin\Controllers\GalleryController;
-use Travo\Admin\Models\{CategoryModel, PostModel};
+use Travo\Admin\Libraries\ImageUpload;
+use Travo\Admin\Models\{CategoryModel, PostModel, UploadModel};
+use RuntimeException;
 
 class PostsController extends BaseController
 {
@@ -28,7 +29,7 @@ class PostsController extends BaseController
 
     public function new()
     {
-        return view('Travo\Admin\Views\Posts\form', ['title' => 'New post', 'post' => [], 'cats' => $this->cats(), 'categoryIds' => [], 'images' => GalleryController::libraryImages()]);
+        return view('Travo\Admin\Views\Posts\form', ['title' => 'New post', 'post' => [], 'cats' => $this->cats(), 'categoryIds' => [], 'images' => UploadModel::libraryImages()]);
     }
 
     public function edit(int $id)
@@ -37,7 +38,7 @@ class PostsController extends BaseController
         if (! $post) {
             return redirect()->to('admin/posts')->with('error', 'Post not found.');
         }
-        return view('Travo\Admin\Views\Posts\form', ['title' => 'Edit post', 'post' => $post, 'cats' => $this->cats(), 'categoryIds' => (new PostModel())->categoryIds($id), 'images' => GalleryController::libraryImages()]);
+        return view('Travo\Admin\Views\Posts\form', ['title' => 'Edit post', 'post' => $post, 'cats' => $this->cats(), 'categoryIds' => (new PostModel())->categoryIds($id), 'images' => UploadModel::libraryImages()]);
     }
 
     public function create()
@@ -55,8 +56,7 @@ class PostsController extends BaseController
         $rules = [
             'title' => 'required|min_length[3]|max_length[255]',
             'status' => 'required|in_list[0,1]',
-            'thumbnail' => 'if_exist|is_image[thumbnail]|max_size[thumbnail,3072]',
-            'thumbnail_path' => 'permit_empty|regex_match[/\Auploads\/[a-zA-Z0-9_\/-]+\.(jpg|jpeg|png|gif|webp)\z/i]',
+            'thumbnail_id' => 'permit_empty|is_natural_no_zero',
             'remove_thumbnail' => 'permit_empty|in_list[1]',
         ];
         if (! $this->validate($rules)) {
@@ -105,35 +105,24 @@ class PostsController extends BaseController
         }
 
         $file = $p->getFile('thumbnail');
-        $thumbnailPath = trim((string) $p->getPost('thumbnail_path'));
+        $thumbnailId = trim((string) $p->getPost('thumbnail_id'));
         if ($p->getPost('remove_thumbnail')) {
-            $data['thumbnail'] = null;
+            $data['thumbnail_id'] = null;
+            $thumbnailId = '';
         }
-        if ($thumbnailPath !== '') {
-            $uploadRoot = realpath(FCPATH . 'uploads');
-            $imagePath = realpath(FCPATH . $thumbnailPath);
-            $imageInfo = $imagePath !== false ? @getimagesize($imagePath) : false;
-
-            if (
-                $uploadRoot === false
-                || $imagePath === false
-                || ! str_starts_with($imagePath, $uploadRoot . DIRECTORY_SEPARATOR)
-                || $imageInfo === false
-                || ! \in_array($imageInfo['mime'] ?? '', ['image/jpeg', 'image/png', 'image/gif', 'image/webp'], true)
-            ) {
+        if ($thumbnailId !== '') {
+            if (! ctype_digit($thumbnailId) || ! (new UploadModel())->find((int) $thumbnailId)) {
                 return redirect()->back()->withInput()->with('error', 'Choose an image from the media library.');
             }
 
-            $data['thumbnail'] = $thumbnailPath;
+            $data['thumbnail_id'] = (int) $thumbnailId;
         }
-        if ($file && $file->isValid() && ! $file->hasMoved()) {
-            if (! \in_array($file->getMimeType(), ['image/jpeg', 'image/png', 'image/webp', 'image/gif'], true)) {
-                return redirect()->back()->withInput()->with('error', 'Unsupported image type.');
+        if ($file && $file->getError() !== UPLOAD_ERR_NO_FILE) {
+            try {
+                $data['thumbnail_id'] = ImageUpload::store($file);
+            } catch (RuntimeException $exception) {
+                return redirect()->back()->withInput()->with('error', $exception->getMessage());
             }
-            $dir = 'uploads/' . date('Y/m');
-            $name = $file->getRandomName();
-            $file->move(FCPATH . $dir, $name);
-            $data['thumbnail'] = $dir . '/' . $name;
         }
 
         $id ? $m->update($id, $data) : $m->insert($data);

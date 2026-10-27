@@ -15,9 +15,19 @@ class ContentCleaner
             return '';
         }
         $dom = new \DOMDocument();
-        libxml_use_internal_errors(true);
-        $dom->loadHTML('<?xml encoding="utf-8" ?><div id="root">' . $html . '</div>', LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
-        libxml_clear_errors();
+        $previousErrorMode = libxml_use_internal_errors(true);
+        try {
+            $loaded = $dom->loadHTML(
+                '<?xml encoding="utf-8" ?><div id="root">' . $html . '</div>',
+                LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD | LIBXML_NONET,
+            );
+        } finally {
+            libxml_clear_errors();
+            libxml_use_internal_errors($previousErrorMode);
+        }
+        if (! $loaded) {
+            return esc($html);
+        }
         $root = $dom->getElementById('root');
         if (! $root) {
             return esc($html);

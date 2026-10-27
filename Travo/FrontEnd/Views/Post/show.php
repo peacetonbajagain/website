@@ -29,8 +29,8 @@
         </div>
     </header>
 
-    <?php if (! empty($post['thumbnail'])): ?>
-        <img src="<?= esc(post_img($post['thumbnail']), 'attr') ?>" alt="<?= esc($post['title'], 'attr') ?>" class="story-image w-100 rounded mb-4">
+    <?php if (! empty($post['thumbnail_path'])): ?>
+        <img src="<?= esc(post_img($post['thumbnail_path']), 'attr') ?>" alt="<?= esc($post['title'], 'attr') ?>" class="story-image w-100 rounded mb-4">
     <?php else: ?>
         <div class="story-image w-100 rounded mb-4" aria-hidden="true"></div>
     <?php endif; ?>

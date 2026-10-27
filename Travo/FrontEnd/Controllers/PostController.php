@@ -2,6 +2,7 @@
 namespace Travo\FrontEnd\Controllers;
 
 use App\Controllers\BaseController;
+use Travo\Admin\Libraries\ContentCleaner;
 use Travo\Admin\Models\{CategoryModel, CommentModel, PostModel};
 
 class PostController extends BaseController
@@ -35,6 +36,7 @@ class PostController extends BaseController
         if (! $post) {
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
         }
+        $post['content'] = ContentCleaner::clean($post['content']);
         db_connect()->table('posts')->where('id', $post['id'])->set('view_count', 'view_count+1', false)->update();
         $post['view_count']++;
 

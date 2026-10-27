@@ -37,7 +37,7 @@ $routes->group('admin', ['namespace' => 'Travo\Admin\Controllers'], static funct
     $routes->post('users/delete/(:num)', 'UsersController::delete/$1', ['filter' => 'permission:users.delete']);
 
     $routes->get('gallery', 'GalleryController::index', ['filter' => 'permission:media.manage']);
-    $routes->post('gallery/upload', 'GalleryController::upload', ['filter' => 'permission:media.manage']);
+    $routes->post('gallery/upload', 'UploadController::upload', ['filter' => 'permission:media.manage']);
     $routes->post('gallery/rename', 'GalleryController::rename', ['filter' => 'permission:media.manage']);
     $routes->post('gallery/delete', 'GalleryController::delete', ['filter' => 'permission:media.manage']);
 });
