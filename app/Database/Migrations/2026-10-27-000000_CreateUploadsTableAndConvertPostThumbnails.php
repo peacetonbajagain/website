@@ -31,6 +31,8 @@ class CreateUploadsTableAndConvertPostThumbnails extends Migration
         $this->forge->addColumn('posts', [
             'thumbnail_id' => ['type' => 'INT', 'unsigned' => true, 'null' => true],
         ]);
+        $this->forge->addKey('thumbnail_id', false, false, 'idx_posts_thumbnail_id');
+        $this->forge->processIndexes('posts');
 
         $this->indexExistingImages();
 

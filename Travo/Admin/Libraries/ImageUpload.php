@@ -39,11 +39,15 @@ final class ImageUpload
         $file->move($directory, $name);
         $path = $relativeDirectory . '/' . $name;
         $absolutePath = $directory . DIRECTORY_SEPARATOR . $name;
+        $thumbnailRelativePath = ImageThumbnail::targetRelativePath($path);
+        $thumbnailAbsolutePath = FCPATH . $thumbnailRelativePath;
         $db = db_connect();
 
         try {
+            $hasThumbnail = ImageThumbnail::generate($absolutePath, $thumbnailAbsolutePath);
             $db->table('uploads')->insert([
                 'path' => $path,
+                'thumbnail_path' => $hasThumbnail ? $thumbnailRelativePath : null,
                 'name' => basename($file->getClientName()),
                 'mime_type' => $mime,
                 'file_size' => filesize($absolutePath),
@@ -55,6 +59,9 @@ final class ImageUpload
 
             return (int) $db->insertID();
         } catch (\Throwable $exception) {
+            if (is_file($thumbnailAbsolutePath)) {
+                unlink($thumbnailAbsolutePath);
+            }
             if (is_file($absolutePath)) {
                 unlink($absolutePath);
             }

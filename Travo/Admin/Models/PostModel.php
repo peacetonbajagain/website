@@ -15,7 +15,7 @@ class PostModel extends Model
     /** Posts with a stable first category for existing display surfaces. */
     public function baseSelect(): static
     {
-        return $this->select("posts.*, uploads.path AS thumbnail_path,
+        return $this->select("posts.*, COALESCE(uploads.thumbnail_path, uploads.path) AS thumbnail_path,
             (SELECT c.title FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_title,
             (SELECT c.slug FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_slug,
             (SELECT pc.category_id FROM post_categories pc WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_id", false)

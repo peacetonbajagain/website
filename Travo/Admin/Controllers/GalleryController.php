@@ -34,6 +34,13 @@ class GalleryController extends BaseController
             return redirect()->to('admin/gallery')->with('error', 'The image could not be deleted.');
         }
 
+        if (! empty($image['thumbnail_path'])) {
+            $thumbnailFile = $this->filePath($image['thumbnail_path']);
+            if ($thumbnailFile !== false && $thumbnailFile !== $filePath && is_file($thumbnailFile)) {
+                unlink($thumbnailFile);
+            }
+        }
+
         $model->delete($id);
         log_activity('delete', 'uploads', $id, $image['name']);
 
