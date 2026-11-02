@@ -41,6 +41,7 @@
             <?php if (auth()->loggedIn()): ?>
                 <?php $currentUser = auth()->user(); ?>
                 <span class="d-none d-md-inline text-secondary"><?= esc($currentUser->username ?? $currentUser->email) ?></span>
+                <a href="<?= base_url('blog/submissions') ?>" class="btn btn-sm btn-outline-secondary">My stories</a>
                 <a href="<?= base_url('blog/submit') ?>" class="btn btn-sm btn-outline-primary">Submit story</a>
                 <?php if ($currentUser->can('admin.access')): ?><a href="<?= base_url('admin') ?>" class="btn btn-sm btn-success">Admin</a><?php endif; ?>
                 <a href="<?= base_url('logout') ?>" class="btn btn-sm btn-outline-secondary">Sign out</a>

@@ -77,6 +77,27 @@ class PostController extends Controller
         }
     }
 
+    public function mySubmissions()
+    {
+        if (! auth()->loggedIn()) {
+            return redirect()->to('login')->with('error', 'Sign in to view your submissions.');
+        }
+
+        $submissionModel = new StorySubmissionModel();
+        $submissions = $submissionModel
+            ->select('story_submissions.*, posts.slug AS published_slug')
+            ->join('posts', 'posts.id = story_submissions.post_id', 'left')
+            ->where('story_submissions.user_id', (int) auth()->id())
+            ->orderBy('story_submissions.created_at', 'DESC')
+            ->paginate(20);
+
+        return view('Travo\\FrontEnd\\Views\\Post\\submissions', [
+            'title' => 'My story submissions',
+            'submissions' => $submissions,
+            'pager' => $submissionModel->pager,
+        ]);
+    }
+
     public function index()
     {
         $postModel = new PostModel();

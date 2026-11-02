@@ -8,6 +8,7 @@ $routes->get('blog/category/(:segment)', 'CategoryController::details/$1');
 $routes->get('category/(:segment)', 'CategoryController::details/$1');
 $routes->get('blog/submit', 'PostController::submit');
 $routes->post('blog/submit', 'PostController::saveSubmission');
+$routes->get('blog/submissions', 'PostController::mySubmissions');
 $routes->get('blog/(:segment)', 'PostController::PostDetails/$1');
 $routes->post('blog/comment', 'PostController::comment');
 $routes->post('blog/view/(:num)', 'PostController::recordView/$1');
