@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="RC Dahal">
+    <meta name="robots" content="index, follow">
+    <title>Samachar</title>
+            <meta name="csrf-token" content="b49616d715d22efb53fc1226565a0fd6">
+    <meta name="csrf-name" content="csrf_test_name">
+    <meta name="app-url" content="http://localhost:8080/">
+    <link rel="icon" href="http://localhost:8080/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        try {
+            const savedTheme = localStorage.getItem('travo-theme');
+            document.documentElement.dataset.theme = savedTheme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        } catch (error) {
+            document.documentElement.dataset.theme = 'light';
+        }
+    </script>
+      <link rel="stylesheet" href="http://localhost:8080/css/bootstrap.css">
+    <link rel="stylesheet" href="http://localhost:8080/css/rich-editor.css">
+      <link rel="stylesheet" href="http://localhost:8080/css/style.css ">
+</head>
+<body class="min-vh-100 d-flex flex-column">
+<header class="bg-body border-bottom sticky-top">
+    <div class="container-xl py-3">
+        <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
+            <a href="http://localhost:8080/" class="site-brand fs-4 fw-bold text-decoration-none text-body">Samachar</a>
+                        <form action="http://localhost:8080/search" method="get" class="order-3 order-lg-0 flex-grow-1" style="max-width: 22rem">
+                <input type="search" name="q" value="" placeholder="Search news…" class="form-control form-control-sm">
+            </form>
+            <div class="d-flex align-items-center gap-2 small fw-semibold">
+            <button type="button" data-theme-toggle aria-pressed="false" class="btn btn-sm btn-outline-secondary">Dark mode</button>
+                                            <span class="d-none d-md-inline text-secondary">peaceton</span>
+                <a href="http://localhost:8080/blog/submissions" class="btn btn-sm btn-outline-secondary">My stories</a>
+                <a href="http://localhost:8080/blog/submit" class="btn btn-sm btn-outline-primary">Submit story</a>
+                <a href="http://localhost:8080/admin" class="btn btn-sm btn-success">Admin</a>                <a href="http://localhost:8080/logout" class="btn btn-sm btn-outline-secondary">Sign out</a>
+                        </div>
+        </div>
+    </div>
+    <nav class="container-xl nav flex-nowrap gap-3 overflow-x-auto pb-2 small fw-semibold" aria-label="Main navigation">
+        <a href="http://localhost:8080/" class="nav-link px-0 text-nowrap">Home</a>
+                    <a href="http://localhost:8080/blog/category/local" class="nav-link px-0 text-nowrap">Local</a>
+                    <a href="http://localhost:8080/blog/category/business" class="nav-link px-0 text-nowrap">Business</a>
+                    <a href="http://localhost:8080/blog/category/technology" class="nav-link px-0 text-nowrap">Science and Technology</a>
+                    <a href="http://localhost:8080/blog/category/environment" class="nav-link px-0 text-nowrap">Environment</a>
+                    <a href="http://localhost:8080/blog/category/culture" class="nav-link px-0 text-nowrap">Culture</a>
+            </nav>
+</header>
+
+
+<main class="flex-grow-1">
+<div class="container py-5" style="max-width: 58rem">
+
+    <!-- Breadcrumb -->
+    <nav class="small fw-semibold text-secondary mb-4" aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0">
+        <li class="breadcrumb-item"><a href="http://localhost:8080/blog">News</a></li>
+                    <li class="breadcrumb-item"><a href="http://localhost:8080/blog/category/technology">Science and Technology</a></li>
+                <li class="breadcrumb-item active text-truncate" aria-current="page">The Universe Is Absolutely Insane</li>
+        </ol>
+    </nav>
+
+    <!-- Article Header -->
+    <header class="text-center mx-auto mb-4" style="max-width: 48rem">
+                    <span class="badge text-bg-primary mb-3">Science and Technology</span>
+                <h1 class="display-5 fw-bold text-body">The Universe Is Absolutely Insane</h1>
+        <div class="d-flex flex-wrap align-items-center justify-content-center gap-2 small text-secondary mt-3">
+            <span>By <strong class="text-body">peacebajagain</strong></span>
+            <span aria-hidden="true">&bull;</span>
+            <span>October 15, 2026</span>
+            <span aria-hidden="true">&bull;</span>
+            <span>4 views</span>
+        </div>
+    </header>
+
+            <img src="http&#x3A;&#x2F;&#x2F;localhost&#x3A;8080&#x2F;uploads&#x2F;2026&#x2F;10&#x2F;life_and_death-thumb.jpg" alt="The&#x20;Universe&#x20;Is&#x20;Absolutely&#x20;Insane" class="story-image w-100 rounded mb-4">
+    
+            <div class="alert alert-primary border-start border-4 fst-italic mb-4">The insanity of universe as a concept</div>
+    
+    <!-- Body: sanitised by ContentCleaner when saved in admin (the only raw echo on this page) -->
+    <div class="prose mb-5"></div>
+
+    <!-- Footer / Share -->
+    <div class="py-4 border-top d-flex flex-column flex-sm-row align-items-sm-center justify-content-between gap-3 mb-4" x-data>
+        <div class="d-flex align-items-center gap-2">
+            <span class="small fw-semibold text-secondary">Share this story:</span>
+            <button type="button" @click="navigator.clipboard && navigator.clipboard.writeText(window.location.href); $el.textContent='Copied!'"
+                    class="btn btn-sm btn-outline-secondary">Copy link</button>
+        </div>
+        <a href="http://localhost:8080/blog" class="small fw-semibold">&larr; Back to all news</a>
+    </div>
+
+        <!-- Comments -->
+    <section class="pt-4 border-top" id="comments-section">
+        <h2 class="h4 fw-bold mb-4">Reader Comments (0)</h2>
+
+        <div id="comments-list" class="d-grid gap-3 mb-4">
+                            <div class="text-center py-4 bg-body-tertiary rounded text-secondary small">No comments yet. Be the first to share your thoughts below.</div>
+                    </div>
+
+        <div class="card shadow-sm">
+            <div class="card-body p-4">
+            <h3 class="h6 fw-bold mb-3">Leave a comment</h3>
+            <form id="comment-form" action="http://localhost:8080/blog/comment" method="post" class="vstack gap-3">
+                <input type="hidden" name="csrf_test_name" value="b49616d715d22efb53fc1226565a0fd6">                <input type="hidden" name="post_id" value="6">
+                <input type="text" name="website" tabindex="-1" autocomplete="off" class="d-none" aria-hidden="true"><!-- honeypot -->
+
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label class="form-label small fw-semibold">Your name <span class="text-danger">*</span></label>
+                        <input type="text" name="author_name" required maxlength="80" value="peaceton" placeholder="Your name"
+                               class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label small fw-semibold">Email <span class="text-danger">*</span> <span class="text-secondary fw-normal">(Never published)</span></label>
+                        <input type="email" name="author_email" required value="bajagaindavid6&#x40;gmail.com" placeholder="you@example.com"
+                               class="form-control">
+                    </div>
+                </div>
+                <div>
+                    <label class="form-label small fw-semibold">Comment <span class="text-danger">*</span></label>
+                    <textarea name="body" rows="3" required maxlength="2000" placeholder="Share your view…"
+                              class="form-control"></textarea>
+                </div>
+                <div id="comment-feedback"></div>
+                <div class="d-flex flex-column flex-sm-row align-items-sm-center justify-content-between gap-2">
+                    <span class="small text-secondary">Comments are reviewed before they appear.</span>
+                    <button type="submit" id="comment-submit-btn" class="btn btn-primary">Post comment</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </section>
+
+    <script>
+    document.getElementById('comment-form')?.addEventListener('submit', function (e) {
+        e.preventDefault();
+        const form = this, btn = document.getElementById('comment-submit-btn'), feedback = document.getElementById('comment-feedback');
+        btn.disabled = true; btn.textContent = 'Posting...';
+        fetch(form.action, { method: 'POST', body: new FormData(form), headers: { 'X-Requested-With': 'XMLHttpRequest' } })
+            .then(r => r.text())
+            .then(html => {
+                feedback.innerHTML = html;   // server returns esc()'d text only
+                btn.disabled = false; btn.textContent = 'Post Comment';
+                if (html.includes('alert-success')) form.querySelector('textarea[name="body"]').value = '';
+            })
+            .catch(() => {
+                feedback.textContent = 'Failed to post comment. Please try again.';
+                btn.disabled = false; btn.textContent = 'Post Comment';
+            });
+    });
+    </script>
+    
+    </div>
+
+</main>
+
+<footer class="bg-body border-top mt-5">
+    <div class="container-xl py-4 d-flex flex-wrap align-items-center justify-content-between gap-3 small text-secondary">
+        <span>&copy; 2026 Samachar</span>
+        <span class="d-flex flex-wrap gap-3">
+            <a href="mailto:bajagaindavid6&#x40;gmail.com">bajagaindavid6@gmail.com</a>                            <a href="http://localhost:8080/pages/about-samachar">About Samachar</a>
+                            <a href="http://localhost:8080/pages/contact-newsroom">Contact the newsroom</a>
+                            <a href="http://localhost:8080/pages/privacy-notice">Privacy notice</a>
+                    </span>
+    </div>
+</footer>
+<script>
+    var base_url = 'http://localhost:8080/';
+    var csrfName = 'csrf_test_name';
+    var csrfHash = 'b49616d715d22efb53fc1226565a0fd6';
+</script>
+<script defer src="http://localhost:8080/js/theme.js"></script>
+<script defer src="http://localhost:8080/js/rich-editor.js"></script>
+<script defer src="http://localhost:8080/js/bootstrap-min.js"></script>
+</body>
+</html>

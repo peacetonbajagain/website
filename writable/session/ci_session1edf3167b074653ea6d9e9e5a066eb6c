@@ -1,1 +1,1 @@
-__ci_last_regenerate|i:1793608200;csrf_test_name|s:32:"b49616d715d22efb53fc1226565a0fd6";_ci_previous_url|s:33:"http://localhost:8080/admin/users";user|a:1:{s:2:"id";i:1;}__ci_vars|a:0:{}
+__ci_last_regenerate|i:1793609227;csrf_test_name|s:32:"b49616d715d22efb53fc1226565a0fd6";_ci_previous_url|s:36:"http://localhost:8080/admin/settings";user|a:1:{s:2:"id";i:1;}__ci_vars|a:0:{}

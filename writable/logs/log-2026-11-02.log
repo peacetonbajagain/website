@@ -1570,3 +1570,680 @@ DEBUG - 2026-11-02 08:31:16 --> Session: Class initialized using 'CodeIgniter\Se
 INFO - 2026-11-02 08:31:16 --> CSRF token verified.
 DEBUG - 2026-11-02 08:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-11-02 08:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 08:33:24 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: blog/comment]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('blog/comment', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 08:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 08:33:51 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: blog/comment]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('blog/comment', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 08:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 08:33:53 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: blog/comment]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('blog/comment', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 08:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-02 08:47:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 294.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(294): mysqli->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:11\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:11\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:11\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 8 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 9 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('why-neighborhood-libraries-still-matter')
+10 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+11 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 08:47:11 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+[Method: GET, Route: blog/why-neighborhood-libraries-still-matter]
+in SYSTEMPATH/Database/BaseConnection.php on line 860.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 5 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('why-neighborhood-libraries-still-matter')
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 08:47:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 304.
+ 1 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:11\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 2 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:11\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 7 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 8 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('why-neighborhood-libraries-still-matter')
+ 9 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+10 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 08:47:11 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 294.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(294): mysqli->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:11\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:11\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:11\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 8 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 9 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('why-neighborhood-libraries-still-matter')
+10 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+11 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 08:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-02 08:47:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 294.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(294): mysqli->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:22\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:22\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:22\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 8 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 9 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('shade-water-and-access-belong-in-a-heat-ready-street-plan')
+10 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+11 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 08:47:22 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+[Method: GET, Route: blog/shade-water-and-access-belong-in-a-heat-ready-street-plan]
+in SYSTEMPATH/Database/BaseConnection.php on line 860.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 5 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('shade-water-and-access-belong-in-a-heat-ready-street-plan')
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 08:47:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 304.
+ 1 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:22\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 2 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:22\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 7 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 8 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('shade-water-and-access-belong-in-a-heat-ready-street-plan')
+ 9 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+10 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 08:47:22 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 294.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(294): mysqli->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:22\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:22\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:22\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 8 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 9 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('shade-water-and-access-belong-in-a-heat-ready-street-plan')
+10 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+11 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 08:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-02 08:47:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 294.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(294): mysqli->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:32\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:32\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:32\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 8 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 9 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('shade-water-and-access-belong-in-a-heat-ready-street-plan')
+10 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+11 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 08:47:32 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+[Method: GET, Route: blog/shade-water-and-access-belong-in-a-heat-ready-street-plan]
+in SYSTEMPATH/Database/BaseConnection.php on line 860.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 5 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('shade-water-and-access-belong-in-a-heat-ready-street-plan')
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 08:47:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 304.
+ 1 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:32\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 2 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:32\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 7 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 8 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('shade-water-and-access-belong-in-a-heat-ready-street-plan')
+ 9 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+10 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 08:47:32 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 294.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(294): mysqli->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:32\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:32\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-02 08:47:32\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 8 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 9 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('shade-water-and-access-belong-in-a-heat-ready-street-plan')
+10 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+11 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 08:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 08:47:56 --> CSRF token verified.
+DEBUG - 2026-11-02 08:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 08:48:19 --> CSRF token verified.
+DEBUG - 2026-11-02 08:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 08:48:28 --> CSRF token verified.
+DEBUG - 2026-11-02 08:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 08:48:49 --> CSRF token verified.
+DEBUG - 2026-11-02 08:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 08:50:29 --> CSRF token verified.
+DEBUG - 2026-11-02 08:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 08:50:35 --> CSRF token verified.
+DEBUG - 2026-11-02 08:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
