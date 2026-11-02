@@ -15,5 +15,5 @@
     </div></div>
 <?php endforeach; if (! $comments): ?><p class="text-secondary">No comments yet.</p><?php endif; ?>
 </div>
-<?= $pager->links() ?>
+<?php if ($pager): ?><?= $pager->links() ?><?php endif; ?>
 <?= $this->endSection() ?>

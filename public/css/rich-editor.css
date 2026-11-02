@@ -1,0 +1,79 @@
+.rich-editor {
+    border: 1px solid #cbd5df;
+    border-radius: 0.375rem;
+    overflow: hidden;
+    background: #fff;
+}
+
+.rich-editor__toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #dce3e9;
+    background: #f5f7f8;
+}
+
+.rich-editor__toolbar button {
+    min-width: 2rem;
+    min-height: 2rem;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    background: transparent;
+    color: #23313b;
+    font: inherit;
+    font-size: 0.875rem;
+}
+
+.rich-editor__toolbar button:hover,
+.rich-editor__toolbar button:focus-visible {
+    border-color: #9fb3c1;
+    background: #fff;
+}
+
+.rich-editor__divider {
+    width: 1px;
+    height: 1.5rem;
+    margin: 0 0.25rem;
+    background: #cbd5df;
+}
+
+.rich-editor__surface {
+    min-height: 18rem;
+    padding: 0.875rem 1rem;
+    overflow-wrap: anywhere;
+    outline: none;
+}
+
+.rich-editor__surface:focus {
+    box-shadow: inset 0 0 0 2px #4c87a8;
+}
+
+.rich-editor__surface blockquote {
+    margin-inline-start: 1rem;
+    padding-inline-start: 0.875rem;
+    border-inline-start: 3px solid #7c9a8b;
+    color: #52616b;
+}
+
+:root[data-theme="dark"] .rich-editor {
+    border-color: #42505d;
+    background: #0f172a;
+}
+
+:root[data-theme="dark"] .rich-editor__toolbar {
+    border-color: #42505d;
+    background: #17212b;
+}
+
+:root[data-theme="dark"] .rich-editor__toolbar button {
+    color: #e7eef4;
+}
+
+:root[data-theme="dark"] .rich-editor__toolbar button:hover,
+:root[data-theme="dark"] .rich-editor__toolbar button:focus-visible {
+    border-color: #617383;
+    background: #253543;
+}

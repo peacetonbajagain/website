@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="/home/peacetonbajagain/Documents/News protal/News protal/phpunit.dist.xml" tests="6" assertions="19" errors="0" failures="0" skipped="0" time="0.023761">
-    <testsuite name="App" tests="6" assertions="19" errors="0" failures="0" skipped="0" time="0.023761">
-      <testsuite name="ExampleDatabaseTest" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/database/ExampleDatabaseTest.php" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.018382">
-        <testcase name="testModelFindAll" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/database/ExampleDatabaseTest.php" line="17" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" assertions="1" time="0.015775"/>
-        <testcase name="testSoftDeleteLeavesRow" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/database/ExampleDatabaseTest.php" line="28" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" assertions="2" time="0.002607"/>
+  <testsuite name="/home/peacetonbajagain/Documents/News protal/News protal/phpunit.dist.xml" tests="10" assertions="34" errors="0" failures="0" skipped="0" time="0.259070">
+    <testsuite name="App" tests="10" assertions="34" errors="0" failures="0" skipped="0" time="0.259070">
+      <testsuite name="ExampleDatabaseTest" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/database/ExampleDatabaseTest.php" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.017669">
+        <testcase name="testModelFindAll" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/database/ExampleDatabaseTest.php" line="17" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" assertions="1" time="0.014831"/>
+        <testcase name="testSoftDeleteLeavesRow" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/database/ExampleDatabaseTest.php" line="28" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" assertions="2" time="0.002838"/>
       </testsuite>
-      <testsuite name="ExampleSessionTest" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/session/ExampleSessionTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.000482">
-        <testcase name="testSessionSimple" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/session/ExampleSessionTest.php" line="10" class="ExampleSessionTest" classname="ExampleSessionTest" assertions="1" time="0.000482"/>
+      <testsuite name="ExampleSessionTest" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/session/ExampleSessionTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.000487">
+        <testcase name="testSessionSimple" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/session/ExampleSessionTest.php" line="10" class="ExampleSessionTest" classname="ExampleSessionTest" assertions="1" time="0.000487"/>
       </testsuite>
-      <testsuite name="AuthorizationPermissionsTest" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/unit/AuthorizationPermissionsTest.php" tests="1" assertions="12" errors="0" failures="0" skipped="0" time="0.000725">
-        <testcase name="testRoleMatrixSeparatesAdministrativeCapabilities" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/unit/AuthorizationPermissionsTest.php" line="12" class="AuthorizationPermissionsTest" classname="AuthorizationPermissionsTest" assertions="12" time="0.000725"/>
+      <testsuite name="AuthorizationPermissionsTest" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/unit/AuthorizationPermissionsTest.php" tests="1" assertions="12" errors="0" failures="0" skipped="0" time="0.000747">
+        <testcase name="testRoleMatrixSeparatesAdministrativeCapabilities" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/unit/AuthorizationPermissionsTest.php" line="12" class="AuthorizationPermissionsTest" classname="AuthorizationPermissionsTest" assertions="12" time="0.000747"/>
       </testsuite>
-      <testsuite name="HealthTest" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/unit/HealthTest.php" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.004171">
-        <testcase name="testIsDefinedAppPath" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/unit/HealthTest.php" line="12" class="HealthTest" classname="HealthTest" assertions="1" time="0.000397"/>
-        <testcase name="testBaseUrlHasBeenSet" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/unit/HealthTest.php" line="17" class="HealthTest" classname="HealthTest" assertions="2" time="0.003775"/>
+      <testsuite name="ContentCleanerTest" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/unit/ContentCleanerTest.php" tests="2" assertions="6" errors="0" failures="0" skipped="0" time="0.001251">
+        <testcase name="testRemovesUnsafeMarkupAndPreservesFormatting" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/unit/ContentCleanerTest.php" line="11" class="ContentCleanerTest" classname="ContentCleanerTest" assertions="5" time="0.000897"/>
+        <testcase name="testRestoresLibxmlErrorMode" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/unit/ContentCleanerTest.php" line="24" class="ContentCleanerTest" classname="ContentCleanerTest" assertions="1" time="0.000354"/>
+      </testsuite>
+      <testsuite name="HealthTest" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/unit/HealthTest.php" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.004139">
+        <testcase name="testIsDefinedAppPath" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/unit/HealthTest.php" line="12" class="HealthTest" classname="HealthTest" assertions="1" time="0.000427"/>
+        <testcase name="testBaseUrlHasBeenSet" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/unit/HealthTest.php" line="17" class="HealthTest" classname="HealthTest" assertions="2" time="0.003712"/>
+      </testsuite>
+      <testsuite name="ImageThumbnailTest" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/unit/ImageThumbnailTest.php" tests="2" assertions="9" errors="0" failures="0" skipped="0" time="0.234778">
+        <testcase name="testCreatesBoundedThumbnailWithoutUpscaling" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/unit/ImageThumbnailTest.php" line="11" class="ImageThumbnailTest" classname="ImageThumbnailTest" assertions="4" time="0.098544"/>
+        <testcase name="testCreatesWebpThumbnailWhenCwebpIsAvailable" file="/home/peacetonbajagain/Documents/News protal/News protal/tests/unit/ImageThumbnailTest.php" line="47" class="ImageThumbnailTest" classname="ImageThumbnailTest" assertions="5" time="0.136234"/>
       </testsuite>
     </testsuite>
   </testsuite>

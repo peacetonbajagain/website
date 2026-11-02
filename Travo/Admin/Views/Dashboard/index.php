@@ -41,8 +41,8 @@
         <h2 class="h6 fw-bold">Quick actions</h2>
         <div class="list-group list-group-flush mt-2">
             <a href="<?= base_url('admin/posts/new') ?>" class="list-group-item list-group-item-action px-0">Write a story <span aria-hidden="true" class="float-end">+</span></a>
-            <a href="<?= base_url('admin/gallery') ?>" class="list-group-item list-group-item-action px-0">Manage media <span aria-hidden="true" class="float-end">›</span></a>
-            <a href="<?= base_url('admin/categories') ?>" class="list-group-item list-group-item-action px-0">Organize sections <span aria-hidden="true" class="float-end">›</span></a>
+            <a href="<?= base_url('admin/gallery') ?>" class="list-group-item list-group-item-action px-0">Upload and manage media <span aria-hidden="true" class="float-end">›</span></a>
+            <a href="<?= base_url('admin/posts/categories') ?>" class="list-group-item list-group-item-action px-0">Organize sections <span aria-hidden="true" class="float-end">›</span></a>
             <a href="<?= base_url('admin/comments') ?>" class="list-group-item list-group-item-action px-0">Review comments <span aria-hidden="true" class="float-end">›</span></a>
             <a href="<?= base_url('admin/users') ?>" class="list-group-item list-group-item-action px-0">Manage users <span aria-hidden="true" class="float-end">›</span></a>
         </div>

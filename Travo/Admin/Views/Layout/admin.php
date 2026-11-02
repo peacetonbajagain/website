@@ -24,6 +24,7 @@
         }
     </script>
       <link rel="stylesheet" href="<?= base_url('css/bootstrap.css') ?>">
+        <link rel="stylesheet" href="<?= base_url('css/rich-editor.css') ?>">
     <?= $this->renderSection('styles') ?>
     <style>
         :root {
@@ -61,6 +62,7 @@ $navigation = [
     '' => ['Overview', 'admin.access'],
     'settings' => ['Site settings', 'admin.settings'],
     'posts' => ['Posts', 'content.manage'],
+    'submissions' => ['Story submissions', 'content.manage'],
     'categories' => ['Categories', 'content.manage'],
     'pages' => ['Pages', 'content.manage'],
     'comments' => ['Comments', 'comments.moderate'],
@@ -120,6 +122,7 @@ $navigation = array_filter($navigation, static fn (array $item): bool => $adminU
     var csrfHash = '<?= csrf_hash() ?>';
 </script>
 <script defer src="<?= base_url('js/theme.js') ?>"></script>
+<script defer src="<?= base_url('js/rich-editor.js') ?>"></script>
 <script defer src="<?= base_url('js/bootstrap-min.js') ?>"></script>
 <?= $this->renderSection('scripts') ?>
 </body>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="RC Dahal">
+    <meta name="robots" content="index, follow">
+    <title>Samachar</title>
+            <meta name="csrf-token" content="22062c2483749fd4c37e309377b771c4">
+    <meta name="csrf-name" content="csrf_test_name">
+    <meta name="app-url" content="http://localhost:8080/">
+    <link rel="icon" href="http://localhost:8080/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        try {
+            const savedTheme = localStorage.getItem('travo-theme');
+            document.documentElement.dataset.theme = savedTheme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        } catch (error) {
+            document.documentElement.dataset.theme = 'light';
+        }
+    </script>
+      <link rel="stylesheet" href="http://localhost:8080/css/bootstrap.css">
+      <link rel="stylesheet" href="http://localhost:8080/css/style.css ">
+</head>
+<body class="min-vh-100 d-flex flex-column">
+<header class="bg-body border-bottom sticky-top">
+    <div class="container-xl py-3">
+        <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
+            <a href="http://localhost:8080/" class="site-brand fs-4 fw-bold text-decoration-none text-body">Samachar</a>
+                        <form action="http://localhost:8080/search" method="get" class="order-3 order-lg-0 flex-grow-1" style="max-width: 22rem">
+                <input type="search" name="q" value="" placeholder="Search news…" class="form-control form-control-sm">
+            </form>
+            <div class="d-flex align-items-center gap-2 small fw-semibold">
+            <button type="button" data-theme-toggle aria-pressed="false" class="btn btn-sm btn-outline-secondary">Dark mode</button>
+                                            <span class="d-none d-md-inline text-secondary">peaceton</span>
+                <a href="http://localhost:8080/admin" class="btn btn-sm btn-success">Admin</a>                <a href="http://localhost:8080/logout" class="btn btn-sm btn-outline-secondary">Sign out</a>
+                        </div>
+        </div>
+    </div>
+    <nav class="container-xl nav flex-nowrap gap-3 overflow-x-auto pb-2 small fw-semibold" aria-label="Main navigation">
+        <a href="http://localhost:8080/" class="nav-link px-0 text-nowrap">Home</a>
+                    <a href="http://localhost:8080/blog/category/local" class="nav-link px-0 text-nowrap">Local</a>
+                    <a href="http://localhost:8080/blog/category/business" class="nav-link px-0 text-nowrap">Business</a>
+                    <a href="http://localhost:8080/blog/category/technology" class="nav-link px-0 text-nowrap">Science and Technology</a>
+                    <a href="http://localhost:8080/blog/category/environment" class="nav-link px-0 text-nowrap">Environment</a>
+                    <a href="http://localhost:8080/blog/category/culture" class="nav-link px-0 text-nowrap">Culture</a>
+            </nav>
+</header>
+
+
+<main class="flex-grow-1"><div class="container py-5" style="max-width: 52rem">
+    <h1 class="display-5 fw-bold mb-4">Privacy notice</h1>
+    <!-- content was sanitised by ContentCleaner on save -->
+    <div class="prose">Hello</div>
+</div>
+</main>
+
+<footer class="bg-body border-top mt-5">
+    <div class="container-xl py-4 d-flex flex-wrap align-items-center justify-content-between gap-3 small text-secondary">
+        <span>&copy; 2026 Samachar</span>
+        <span class="d-flex flex-wrap gap-3">
+            <a href="mailto:bajagaindavid6&#x40;gmail.com">bajagaindavid6@gmail.com</a>                            <a href="http://localhost:8080/pages/about-samachar">About Samachar</a>
+                            <a href="http://localhost:8080/pages/contact-newsroom">Contact the newsroom</a>
+                            <a href="http://localhost:8080/pages/privacy-notice">Privacy notice</a>
+                    </span>
+    </div>
+</footer>
+<script>
+    var base_url = 'http://localhost:8080/';
+    var csrfName = 'csrf_test_name';
+    var csrfHash = '22062c2483749fd4c37e309377b771c4';
+</script>
+<script defer src="http://localhost:8080/js/theme.js"></script>
+<script defer src="http://localhost:8080/js/bootstrap-min.js"></script>
+</body>
+</html>

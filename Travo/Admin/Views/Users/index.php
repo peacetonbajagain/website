@@ -21,6 +21,10 @@
                         <div class="form-text">At least 8 characters.</div>
                     </div>
                     <div>
+                        <label for="pass-confirm" class="form-label">Confirm password</label>
+                        <input id="pass-confirm" name="pass_confirm" type="password" required minlength="8" autocomplete="new-password" class="form-control">
+                    </div>
+                    <div>
                         <label for="group" class="form-label">User group</label>
                         <select id="group" name="group" required class="form-select">
                             <?php foreach ($roleOptions as $name => $group): ?>
@@ -46,7 +50,7 @@
                         <thead class="table-light"><tr><th class="ps-4">Account</th><th>Group</th><th>Status</th><th class="text-end pe-4">Actions</th></tr></thead>
                         <tbody>
                         <?php foreach ($users as $user): ?>
-                            <?php $groups = $user->getGroups() ?? []; $group = reset($groups) ?: 'user'; $canEdit = auth()->user()->can('users.edit') && (int) auth()->user()->id !== (int) $user->id && (auth()->user()->can('users.manage-admins') || ! $user->inGroup('admin', 'superadmin', 'developer')); $canDelete = auth()->user()->can('users.delete') && $canEdit; ?>
+                            <?php $groups = $user->getGroups() ?? []; $group = reset($groups) ?: 'user'; $canManageAdmins = auth()->user()->inGroup('superadmin') || auth()->user()->can('users.manage-admins'); $isSelf = (int) auth()->user()->id === (int) $user->id; $canEdit = auth()->user()->can('users.edit') && ! $isSelf && ($canManageAdmins || ! $user->inGroup('admin', 'superadmin', 'developer')); $canDelete = auth()->user()->can('users.delete') && ! $isSelf && ($canManageAdmins || ! $user->inGroup('admin', 'superadmin', 'developer')); ?>
                             <tr>
                                 <td class="ps-4"><div class="fw-semibold"><?= esc($user->username ?? '—') ?></div><div class="small text-secondary"><?= esc($user->getEmail() ?? '') ?></div></td>
                                 <td>
@@ -66,12 +70,14 @@
                                 </td>
                                 <td><span class="badge <?= $user->active ? 'text-bg-success' : 'text-bg-secondary' ?>"><?= $user->active ? 'Active' : 'Inactive' ?></span></td>
                                 <td class="text-end pe-4">
-                                    <?php if ($canEdit): ?>
+                                    <?php if ($canEdit || $canDelete): ?>
                                         <div class="d-flex justify-content-end gap-2">
-                                            <form method="post" action="<?= base_url('admin/users/status/' . (int) $user->id) ?>">
-                                                <?= csrf_field() ?>
-                                                <button class="btn btn-sm <?= $user->active ? 'btn-outline-danger' : 'btn-outline-success' ?>"><?= $user->active ? 'Deactivate' : 'Activate' ?></button>
-                                            </form>
+                                            <?php if ($canEdit): ?>
+                                                <form method="post" action="<?= base_url('admin/users/status/' . (int) $user->id) ?>">
+                                                    <?= csrf_field() ?>
+                                                    <button class="btn btn-sm <?= $user->active ? 'btn-outline-danger' : 'btn-outline-success' ?>"><?= $user->active ? 'Deactivate' : 'Activate' ?></button>
+                                                </form>
+                                            <?php endif; ?>
                                             <?php if ($canDelete): ?>
                                                 <form method="post" action="<?= base_url('admin/users/delete/' . (int) $user->id) ?>" onsubmit="return confirm('Delete <?= esc($user->username ?? 'this user', 'attr') ?>? This account will be soft-deleted.')">
                                                     <?= csrf_field() ?>

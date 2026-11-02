@@ -1,6 +1,10 @@
 Authorization Permissions
  [x] Role matrix separates administrative capabilities
 
+Content Cleaner
+ [x] Removes unsafe markup and preserves formatting
+ [x] Restores libxml error mode
+
 Example Database
  [x] Model find all
  [x] Soft delete leaves row
@@ -11,4 +15,8 @@ Example Session
 Health
  [x] Is defined app path
  [x] Base url has been set
+
+Image Thumbnail
+ [x] Creates bounded thumbnail without upscaling
+ [x] Creates webp thumbnail when cwebp is available
 

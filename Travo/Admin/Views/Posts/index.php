@@ -10,13 +10,14 @@
 </div>
 <div class="card shadow-sm"><div class="table-responsive">
 <table class="table table-hover align-middle mb-0">
-    <thead class="table-light"><tr><th class="ps-3">Title</th><th>Category</th><th>Status</th><th>Views</th><th class="text-end pe-3">Actions</th></tr></thead>
+    <thead class="table-light"><tr><th class="ps-3">Title</th><th>Author</th><th>Category</th><th>Status</th><th>Views</th><th class="text-end pe-3">Actions</th></tr></thead>
     <tbody>
     <?php foreach ($posts as $p): ?>
         <tr>
             <td class="ps-3 fw-semibold"><?= esc($p['title']) ?>
                 <?php if ($p['is_featured']): ?><span class="badge text-bg-warning">Featured</span><?php endif; ?>
                 <?php if ($p['is_breaking_news']): ?><span class="badge text-bg-danger">Breaking</span><?php endif; ?></td>
+            <td><?= esc($p['author_name'] ?? 'Unknown') ?></td>
             <td><?= esc($p['category_title'] ?? '—') ?></td>
             <td><?= $p['status'] ? 'Published' : 'Draft' ?></td>
             <td><?= (int) $p['view_count'] ?></td>
@@ -25,7 +26,7 @@
                 <form method="post" action="<?= base_url('admin/posts/delete/' . (int) $p['id']) ?>" class="d-inline" onsubmit="return confirm('Delete this post?')"><?= csrf_field() ?><button class="btn btn-sm btn-outline-danger ms-1">Delete</button></form>
             </td>
         </tr>
-    <?php endforeach; if (! $posts): ?><tr><td class="text-center text-secondary py-4" colspan="5">No posts.</td></tr><?php endif; ?>
+    <?php endforeach; if (! $posts): ?><tr><td class="text-center text-secondary py-4" colspan="6">No posts.</td></tr><?php endif; ?>
     </tbody>
 </table></div></div>
 <?= $pager->links() ?>

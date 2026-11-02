@@ -6,8 +6,14 @@
     <div class="col-12 col-lg-8"><div class="card shadow-sm"><div class="card-body vstack gap-3">
         <label class="form-label fw-semibold mb-0">Title<input name="title" required value="<?= esc($v('title'), 'attr') ?>" class="form-control mt-1"></label>
         <label class="form-label fw-semibold mb-0">Excerpt<textarea name="excerpt" rows="2" class="form-control mt-1"><?= esc($v('excerpt')) ?></textarea></label>
-        <label class="form-label fw-semibold mb-0">Content (HTML allowed: p, h2-h4, lists, a, img, blockquote, table…)
-            <textarea name="content" rows="16" class="form-control font-monospace mt-1"><?= esc($v('content')) ?></textarea></label>
+        <div>
+            <label class="form-label fw-semibold" for="post-content-surface">Content</label>
+            <?= view('Travo\\FrontEnd\\Views\\Partials\\rich_editor', [
+                'editorId' => 'post-content',
+                'editorName' => 'content',
+                'editorContent' => $v('content'),
+            ]) ?>
+        </div>
         <label class="form-label fw-semibold mb-0">SEO title<input name="meta_title" value="<?= esc($v('meta_title'), 'attr') ?>" class="form-control mt-1"></label>
         <label class="form-label fw-semibold mb-0">SEO description<textarea name="meta_desc" rows="2" class="form-control mt-1"><?= esc($v('meta_desc')) ?></textarea></label>
     </div></div></div>
@@ -29,9 +35,11 @@
             <label class="form-check"><input class="form-check-input" type="checkbox" name="is_breaking_news" value="1" <?= $v('is_breaking_news') ? 'checked' : '' ?>> <span class="form-check-label">Breaking news</span></label>
             <label class="form-check"><input class="form-check-input" type="checkbox" name="is_trending" value="1" <?= $v('is_trending') ? 'checked' : '' ?>> <span class="form-check-label">Trending</span></label>
         </div>
-        <label class="form-label fw-semibold mb-0">Thumbnail (JPG, PNG, GIF, or WebP; up to 5 MB)<input type="file" name="thumbnail" accept="image/jpeg,image/png,image/gif,image/webp" class="form-control mt-1"></label>
         <input type="hidden" name="thumbnail_id" value="<?= esc($v('thumbnail_id'), 'attr') ?>">
-        <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#media-picker">Choose from media library</button>
+        <div class="d-flex flex-wrap gap-2">
+            <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#media-picker">Choose a thumbnail</button>
+            <a href="<?= base_url('admin/gallery') ?>" class="btn btn-outline-primary btn-sm">Upload or manage media</a>
+        </div>
         <?php if (! empty($post['thumbnail_id']) && ! empty($post['thumbnail_path'])): ?>
             <div class="border rounded p-2">
             <img src="<?= esc(post_img($post['thumbnail_path']), 'attr') ?>" alt="Current thumbnail" class="img-fluid rounded mb-2">
@@ -48,7 +56,7 @@
 </form>
 <div class="modal fade" id="media-picker" tabindex="-1" aria-labelledby="media-picker-title" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-xl"><div class="modal-content">
-        <div class="modal-header"><h2 class="modal-title fs-5" id="media-picker-title">Choose a thumbnail</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+        <div class="modal-header"><h2 class="modal-title fs-5" id="media-picker-title">Choose a thumbnail</h2><div class="d-flex align-items-center gap-3"><a href="<?= base_url('admin/gallery') ?>" class="small">Open media library</a><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div></div>
         <div class="modal-body">
             <label class="visually-hidden" for="media-search">Search media</label>
             <input id="media-search" type="search" class="form-control mb-3" placeholder="Search filenames">

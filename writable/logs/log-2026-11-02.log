@@ -1,0 +1,1398 @@
+DEBUG - 2026-11-02 06:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 06:27:24 --> ErrorException: include(/home/peacetonbajagain/Documents/News protal/News protal/vendor/composer/../../Travo/Admin/Controllers/DashboardController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: admin]
+in VENDORPATH/composer/ClassLoader.php on line 576.
+ 1 VENDORPATH/composer/ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/peacetonbajagain/Documents/News protal/News protal/vendor/composer/../../Travo/Admin/Controllers/DashboardController.php): Failed to open stream: No such file or directory', '/home/peacetonbajagain/Documents/News protal/News protal/vendor/composer/ClassLoader.php', 576)
+ 2 VENDORPATH/composer/ClassLoader.php(576): include()
+ 3 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/peacetonbajagain/Documents/News protal/News protal/vendor/composer/../../Travo/Admin/Controllers/DashboardController.php')
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Travo\\Admin\\Controllers\\DashboardController')
+ 5 SYSTEMPATH/Router/Router.php(792): class_exists('\\Travo\\Admin\\Controllers\\DashboardController')
+ 6 SYSTEMPATH/Router/Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 7 SYSTEMPATH/CodeIgniter.php(852): CodeIgniter\Router\Router->handle('admin')
+ 8 SYSTEMPATH/CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 9 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 06:27:42 --> ErrorException: include(/home/peacetonbajagain/Documents/News protal/News protal/vendor/composer/../../Travo/Admin/Controllers/DashboardController.php): Failed to open stream: No such file or directory
+[Method: CLI, Route: routes]
+in VENDORPATH/composer/ClassLoader.php on line 576.
+ 1 VENDORPATH/composer/ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/peacetonbajagain/Documents/News protal/News protal/vendor/composer/../../Travo/Admin/Controllers/DashboardController.php): Failed to open stream: No such file or directory', '/home/peacetonbajagain/Documents/News protal/News protal/vendor/composer/ClassLoader.php', 576)
+ 2 VENDORPATH/composer/ClassLoader.php(576): include()
+ 3 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/peacetonbajagain/Documents/News protal/News protal/vendor/composer/../../Travo/Admin/Controllers/DashboardController.php')
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Travo\\Admin\\Controllers\\DashboardController')
+ 5 SYSTEMPATH/Router/Router.php(792): class_exists('\\Travo\\Admin\\Controllers\\DashboardController')
+ 6 SYSTEMPATH/Router/Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 7 SYSTEMPATH/Commands/Utilities/Routes/FilterFinder.php(44): CodeIgniter\Router\Router->handle('admin')
+ 8 SYSTEMPATH/Commands/Utilities/Routes/FilterFinder.php(60): CodeIgniter\Commands\Utilities\Routes\FilterFinder->getRouteFilters('admin')
+ 9 SYSTEMPATH/Commands/Utilities/Routes/FilterCollector.php(78): CodeIgniter\Commands\Utilities\Routes\FilterFinder->find('admin')
+10 SYSTEMPATH/Commands/Utilities/Routes.php(120): CodeIgniter\Commands\Utilities\Routes\FilterCollector->get('GET', 'admin')
+11 SYSTEMPATH/CLI/Commands.php(72): CodeIgniter\Commands\Utilities\Routes->run([])
+12 SYSTEMPATH/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('routes', [])
+13 SYSTEMPATH/Boot.php(444): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH/Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-11-02 06:29:30 --> ErrorException: include(/home/peacetonbajagain/Documents/News protal/News protal/vendor/composer/../../Travo/Admin/Controllers/DashboardController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: admin]
+in VENDORPATH/composer/ClassLoader.php on line 576.
+ 1 VENDORPATH/composer/ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/peacetonbajagain/Documents/News protal/News protal/vendor/composer/../../Travo/Admin/Controllers/DashboardController.php): Failed to open stream: No such file or directory', '/home/peacetonbajagain/Documents/News protal/News protal/vendor/composer/ClassLoader.php', 576)
+ 2 VENDORPATH/composer/ClassLoader.php(576): include()
+ 3 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/peacetonbajagain/Documents/News protal/News protal/vendor/composer/../../Travo/Admin/Controllers/DashboardController.php')
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Travo\\Admin\\Controllers\\DashboardController')
+ 5 SYSTEMPATH/Router/Router.php(792): class_exists('\\Travo\\Admin\\Controllers\\DashboardController')
+ 6 SYSTEMPATH/Router/Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 7 SYSTEMPATH/CodeIgniter.php(852): CodeIgniter\Router\Router->handle('admin')
+ 8 SYSTEMPATH/CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 9 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 06:29:52 --> ErrorException: Trait "Travo\FrontEnd\Traits\CacheTrait" not found
+[Method: CLI, Route: routes]
+in ROOTPATH/Travo/FrontEnd/Controllers/PostController.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2026-11-02 06:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 06:30:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Travo\Admin\Views\Dashboard\cms.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Travo\\Admin\\Views\\Dashboard\\cms.php')
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Dashboard\\cms', [], true)
+ 3 ROOTPATH/Travo/Admin/Controllers/Dashboard.php(37): view('Travo\\Admin\\Views\\Dashboard\\cms', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\Dashboard->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\Dashboard))
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 06:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 06:33:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Travo\Admin\Views\Dashboard\cms.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Travo\\Admin\\Views\\Dashboard\\cms.php')
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Dashboard\\cms', [], true)
+ 3 ROOTPATH/Travo/Admin/Controllers/Dashboard.php(37): view('Travo\\Admin\\Views\\Dashboard\\cms', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\Dashboard->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\Dashboard))
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 06:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 06:34:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Travo\Admin\Views\Dashboard\cms.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Travo\\Admin\\Views\\Dashboard\\cms.php')
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Dashboard\\cms', [], true)
+ 3 ROOTPATH/Travo/Admin/Controllers/Dashboard.php(37): view('Travo\\Admin\\Views\\Dashboard\\cms', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\Dashboard->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\Dashboard))
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 06:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 06:36:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Travo\Admin\Views\Settings\settings.php"
+[Method: GET, Route: admin/settings]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Travo\\Admin\\Views\\Settings\\settings.php')
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Settings\\settings', [], true)
+ 3 ROOTPATH/Travo/Admin/Controllers/Settings.php(20): view('Travo\\Admin\\Views\\Settings\\settings', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\Settings->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\Settings))
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 06:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-02 06:39:20 --> Unknown column 'users.first_name' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 294.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(294): mysqli->query('SELECT `posts`.*, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 20', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`.*, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 20')
+ 3 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`.*, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 20')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.*, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 20', [], false)
+ 5 SYSTEMPATH/Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 7 SYSTEMPATH/BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 8 ROOTPATH/Travo/Admin/Controllers/PostsController.php(134): CodeIgniter\BaseModel->paginate(20, 'default', 1)
+ 9 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\PostsController->index()
+10 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\PostsController))
+11 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 06:39:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.first_name' in 'field list'
+[Method: GET, Route: admin/posts]
+in SYSTEMPATH/Database/BaseConnection.php on line 860.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.*, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 20', [], false)
+ 2 SYSTEMPATH/Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 4 SYSTEMPATH/BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 5 ROOTPATH/Travo/Admin/Controllers/PostsController.php(134): CodeIgniter\BaseModel->paginate(20, 'default', 1)
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\PostsController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\PostsController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 06:39:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.first_name' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 304.
+ 1 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`.*, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 20')
+ 2 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`.*, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 20')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.*, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 20', [], false)
+ 4 SYSTEMPATH/Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 6 SYSTEMPATH/BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 7 ROOTPATH/Travo/Admin/Controllers/PostsController.php(134): CodeIgniter\BaseModel->paginate(20, 'default', 1)
+ 8 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\PostsController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\PostsController))
+10 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 06:39:20 --> [Caused by] mysqli_sql_exception: Unknown column 'users.first_name' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 294.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(294): mysqli->query('SELECT `posts`.*, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 20', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`.*, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 20')
+ 3 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`.*, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 20')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.*, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name, \'\'), COALESCE(users.last_name, \'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 20', [], false)
+ 5 SYSTEMPATH/Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 7 SYSTEMPATH/BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 8 ROOTPATH/Travo/Admin/Controllers/PostsController.php(134): CodeIgniter\BaseModel->paginate(20, 'default', 1)
+ 9 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\PostsController->index()
+10 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\PostsController))
+11 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 06:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-02 06:41:10 --> Unknown column 'users.first_name' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 294.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(294): mysqli->query('SELECT posts.*, COALESCE(uploads.thumbnail_path, uploads.path) AS thumbnail_path,
+            (SELECT c.title FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_title,
+            (SELECT c.slug FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_slug,
+            (SELECT pc.category_id FROM post_categories pc WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_id, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `uploads` ON `uploads`.`id` = `posts`.`thumbnail_id`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`status` = 1
+AND   (
+   (
+`posts`.`title` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`content` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`excerpt` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`tags` LIKE \'%test%\' ESCAPE \'!\'
+  )
+ )
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 12', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT posts.*, COALESCE(uploads.thumbnail_path, uploads.path) AS thumbnail_path,
+            (SELECT c.title FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_title,
+            (SELECT c.slug FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_slug,
+            (SELECT pc.category_id FROM post_categories pc WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_id, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `uploads` ON `uploads`.`id` = `posts`.`thumbnail_id`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`status` = 1
+AND   (
+   (
+`posts`.`title` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`content` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`excerpt` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`tags` LIKE \'%test%\' ESCAPE \'!\'
+  )
+ )
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 12')
+ 3 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT posts.*, COALESCE(uploads.thumbnail_path, uploads.path) AS thumbnail_path,
+            (SELECT c.title FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_title,
+            (SELECT c.slug FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_slug,
+            (SELECT pc.category_id FROM post_categories pc WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_id, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `uploads` ON `uploads`.`id` = `posts`.`thumbnail_id`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`status` = 1
+AND   (
+   (
+`posts`.`title` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`content` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`excerpt` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`tags` LIKE \'%test%\' ESCAPE \'!\'
+  )
+ )
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 12')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT posts.*, COALESCE(uploads.thumbnail_path, uploads.path) AS thumbnail_path,
+            (SELECT c.title FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_title,
+            (SELECT c.slug FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_slug,
+            (SELECT pc.category_id FROM post_categories pc WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_id, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `uploads` ON `uploads`.`id` = `posts`.`thumbnail_id`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+   (
+`posts`.`title` LIKE :posts.title: ESCAPE \'!\'
+OR  `posts`.`content` LIKE :posts.content: ESCAPE \'!\'
+OR  `posts`.`excerpt` LIKE :posts.excerpt: ESCAPE \'!\'
+OR  `posts`.`tags` LIKE :posts.tags: ESCAPE \'!\'
+  )
+ )
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 12', [...], false)
+ 5 SYSTEMPATH/Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(12, 0)
+ 7 SYSTEMPATH/BaseModel.php(1337): CodeIgniter\BaseModel->findAll(12, 0)
+ 8 ROOTPATH/Travo/FrontEnd/Controllers/SearchController.php(50): CodeIgniter\BaseModel->paginate(12, 'default')
+ 9 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\SearchController->index()
+10 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\SearchController))
+11 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 06:41:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.first_name' in 'field list'
+[Method: GET, Route: search]
+in SYSTEMPATH/Database/BaseConnection.php on line 860.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT posts.*, COALESCE(uploads.thumbnail_path, uploads.path) AS thumbnail_path,
+            (SELECT c.title FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_title,
+            (SELECT c.slug FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_slug,
+            (SELECT pc.category_id FROM post_categories pc WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_id, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `uploads` ON `uploads`.`id` = `posts`.`thumbnail_id`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+   (
+`posts`.`title` LIKE :posts.title: ESCAPE \'!\'
+OR  `posts`.`content` LIKE :posts.content: ESCAPE \'!\'
+OR  `posts`.`excerpt` LIKE :posts.excerpt: ESCAPE \'!\'
+OR  `posts`.`tags` LIKE :posts.tags: ESCAPE \'!\'
+  )
+ )
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 12', [...], false)
+ 2 SYSTEMPATH/Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(12, 0)
+ 4 SYSTEMPATH/BaseModel.php(1337): CodeIgniter\BaseModel->findAll(12, 0)
+ 5 ROOTPATH/Travo/FrontEnd/Controllers/SearchController.php(50): CodeIgniter\BaseModel->paginate(12, 'default')
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\SearchController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\SearchController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 06:41:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.first_name' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 304.
+ 1 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT posts.*, COALESCE(uploads.thumbnail_path, uploads.path) AS thumbnail_path,
+            (SELECT c.title FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_title,
+            (SELECT c.slug FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_slug,
+            (SELECT pc.category_id FROM post_categories pc WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_id, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `uploads` ON `uploads`.`id` = `posts`.`thumbnail_id`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`status` = 1
+AND   (
+   (
+`posts`.`title` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`content` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`excerpt` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`tags` LIKE \'%test%\' ESCAPE \'!\'
+  )
+ )
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 12')
+ 2 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT posts.*, COALESCE(uploads.thumbnail_path, uploads.path) AS thumbnail_path,
+            (SELECT c.title FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_title,
+            (SELECT c.slug FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_slug,
+            (SELECT pc.category_id FROM post_categories pc WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_id, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `uploads` ON `uploads`.`id` = `posts`.`thumbnail_id`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`status` = 1
+AND   (
+   (
+`posts`.`title` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`content` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`excerpt` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`tags` LIKE \'%test%\' ESCAPE \'!\'
+  )
+ )
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 12')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT posts.*, COALESCE(uploads.thumbnail_path, uploads.path) AS thumbnail_path,
+            (SELECT c.title FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_title,
+            (SELECT c.slug FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_slug,
+            (SELECT pc.category_id FROM post_categories pc WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_id, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `uploads` ON `uploads`.`id` = `posts`.`thumbnail_id`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+   (
+`posts`.`title` LIKE :posts.title: ESCAPE \'!\'
+OR  `posts`.`content` LIKE :posts.content: ESCAPE \'!\'
+OR  `posts`.`excerpt` LIKE :posts.excerpt: ESCAPE \'!\'
+OR  `posts`.`tags` LIKE :posts.tags: ESCAPE \'!\'
+  )
+ )
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 12', [...], false)
+ 4 SYSTEMPATH/Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(12, 0)
+ 6 SYSTEMPATH/BaseModel.php(1337): CodeIgniter\BaseModel->findAll(12, 0)
+ 7 ROOTPATH/Travo/FrontEnd/Controllers/SearchController.php(50): CodeIgniter\BaseModel->paginate(12, 'default')
+ 8 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\SearchController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\SearchController))
+10 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 06:41:10 --> [Caused by] mysqli_sql_exception: Unknown column 'users.first_name' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 294.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(294): mysqli->query('SELECT posts.*, COALESCE(uploads.thumbnail_path, uploads.path) AS thumbnail_path,
+            (SELECT c.title FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_title,
+            (SELECT c.slug FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_slug,
+            (SELECT pc.category_id FROM post_categories pc WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_id, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `uploads` ON `uploads`.`id` = `posts`.`thumbnail_id`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`status` = 1
+AND   (
+   (
+`posts`.`title` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`content` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`excerpt` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`tags` LIKE \'%test%\' ESCAPE \'!\'
+  )
+ )
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 12', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT posts.*, COALESCE(uploads.thumbnail_path, uploads.path) AS thumbnail_path,
+            (SELECT c.title FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_title,
+            (SELECT c.slug FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_slug,
+            (SELECT pc.category_id FROM post_categories pc WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_id, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `uploads` ON `uploads`.`id` = `posts`.`thumbnail_id`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`status` = 1
+AND   (
+   (
+`posts`.`title` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`content` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`excerpt` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`tags` LIKE \'%test%\' ESCAPE \'!\'
+  )
+ )
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 12')
+ 3 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT posts.*, COALESCE(uploads.thumbnail_path, uploads.path) AS thumbnail_path,
+            (SELECT c.title FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_title,
+            (SELECT c.slug FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_slug,
+            (SELECT pc.category_id FROM post_categories pc WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_id, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `uploads` ON `uploads`.`id` = `posts`.`thumbnail_id`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`status` = 1
+AND   (
+   (
+`posts`.`title` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`content` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`excerpt` LIKE \'%test%\' ESCAPE \'!\'
+OR  `posts`.`tags` LIKE \'%test%\' ESCAPE \'!\'
+  )
+ )
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 12')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT posts.*, COALESCE(uploads.thumbnail_path, uploads.path) AS thumbnail_path,
+            (SELECT c.title FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_title,
+            (SELECT c.slug FROM post_categories pc JOIN blog_categories c ON c.id = pc.category_id WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_slug,
+            (SELECT pc.category_id FROM post_categories pc WHERE pc.post_id = posts.id ORDER BY pc.category_id LIMIT 1) AS category_id, CASE WHEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) <> \'\' THEN TRIM(CONCAT_WS(\' \', COALESCE(users.first_name,\'\'), COALESCE(users.last_name,\'\'))) ELSE users.username END AS author_name
+FROM `posts`
+LEFT JOIN `uploads` ON `uploads`.`id` = `posts`.`thumbnail_id`
+LEFT JOIN `users` ON `users`.`id` = `posts`.`author_id`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+   (
+`posts`.`title` LIKE :posts.title: ESCAPE \'!\'
+OR  `posts`.`content` LIKE :posts.content: ESCAPE \'!\'
+OR  `posts`.`excerpt` LIKE :posts.excerpt: ESCAPE \'!\'
+OR  `posts`.`tags` LIKE :posts.tags: ESCAPE \'!\'
+  )
+ )
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` DESC
+ LIMIT 12', [...], false)
+ 5 SYSTEMPATH/Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(12, 0)
+ 7 SYSTEMPATH/BaseModel.php(1337): CodeIgniter\BaseModel->findAll(12, 0)
+ 8 ROOTPATH/Travo/FrontEnd/Controllers/SearchController.php(50): CodeIgniter\BaseModel->paginate(12, 'default')
+ 9 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\SearchController->index()
+10 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\SearchController))
+11 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 06:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 06:42:15 --> ErrorException: Undefined variable $q
+[Method: GET, Route: search]
+in ROOTPATH/Travo/FrontEnd/Views/Search/index.php on line 4.
+ 1 ROOTPATH/Travo/FrontEnd/Views/Search/index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $q', '/home/peacetonbajagain/Documents/News protal/News protal/Travo/FrontEnd/Views/Search/index.php', 4)
+ 2 SYSTEMPATH/View/View.php(240): include('/home/peacetonbajagain/Documents/News protal/News protal/Travo/FrontEnd/Views/Search/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\FrontEnd\\Views\\Search\\index', [], true)
+ 5 ROOTPATH/Travo/FrontEnd/Controllers/SearchController.php(53): view('Travo\\FrontEnd\\Views\\Search\\index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\SearchController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\SearchController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 06:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 06:43:15 --> ErrorException: Undefined array key "size"
+[Method: GET, Route: admin/gallery]
+in ROOTPATH/Travo/Admin/Views/Gallery/index.php on line 37.
+ 1 ROOTPATH/Travo/Admin/Views/Gallery/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "size"', '/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php', 37)
+ 2 SYSTEMPATH/View/View.php(240): include('/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Gallery\\index', [], true)
+ 5 ROOTPATH/Travo/Admin/Controllers/GalleryController.php(12): view('Travo\\Admin\\Views\\Gallery\\index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\GalleryController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\GalleryController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 06:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 06:44:03 --> ErrorException: Undefined array key "size"
+[Method: GET, Route: admin/gallery]
+in ROOTPATH/Travo/Admin/Views/Gallery/index.php on line 37.
+ 1 ROOTPATH/Travo/Admin/Views/Gallery/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "size"', '/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php', 37)
+ 2 SYSTEMPATH/View/View.php(240): include('/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Gallery\\index', [], true)
+ 5 ROOTPATH/Travo/Admin/Controllers/GalleryController.php(12): view('Travo\\Admin\\Views\\Gallery\\index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\GalleryController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\GalleryController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 06:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 06:44:06 --> ErrorException: Undefined variable $roleOptions
+[Method: GET, Route: admin/users]
+in ROOTPATH/Travo/Admin/Views/Users/index.php on line 26.
+ 1 ROOTPATH/Travo/Admin/Views/Users/index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roleOptions', '/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Users/index.php', 26)
+ 2 SYSTEMPATH/View/View.php(240): include('/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Users/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Users\\index', [], true)
+ 5 ROOTPATH/Travo/Admin/Controllers/UsersController.php(59): view('Travo\\Admin\\Views\\Users\\index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\UsersController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\UsersController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 06:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 06:46:06 --> CSRF token verified.
+DEBUG - 2026-11-02 06:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 06:49:30 --> Error: Call to a member function links() on null
+[Method: GET, Route: admin/comments]
+in ROOTPATH/Travo/Admin/Views/Comments/index.php on line 18.
+ 1 SYSTEMPATH/View/View.php(240): include()
+ 2 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Comments\\index', [], true)
+ 4 ROOTPATH/Travo/Admin/Controllers/CommentsController.php(28): view('Travo\\Admin\\Views\\Comments\\index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\CommentsController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\CommentsController))
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 06:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 06:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 06:54:30 --> ErrorException: Undefined array key "size"
+[Method: GET, Route: admin/gallery]
+in ROOTPATH/Travo/Admin/Views/Gallery/index.php on line 37.
+ 1 ROOTPATH/Travo/Admin/Views/Gallery/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "size"', '/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php', 37)
+ 2 SYSTEMPATH/View/View.php(240): include('/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Gallery\\index', [], true)
+ 5 ROOTPATH/Travo/Admin/Controllers/GalleryController.php(12): view('Travo\\Admin\\Views\\Gallery\\index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\GalleryController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\GalleryController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 06:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 06:57:27 --> ErrorException: Undefined array key "size"
+[Method: GET, Route: admin/gallery]
+in ROOTPATH/Travo/Admin/Views/Gallery/index.php on line 37.
+ 1 ROOTPATH/Travo/Admin/Views/Gallery/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "size"', '/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php', 37)
+ 2 SYSTEMPATH/View/View.php(240): include('/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Gallery\\index', [], true)
+ 5 ROOTPATH/Travo/Admin/Controllers/GalleryController.php(12): view('Travo\\Admin\\Views\\Gallery\\index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\GalleryController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\GalleryController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 06:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 06:58:26 --> ErrorException: Undefined array key "size"
+[Method: GET, Route: admin/gallery]
+in ROOTPATH/Travo/Admin/Views/Gallery/index.php on line 37.
+ 1 ROOTPATH/Travo/Admin/Views/Gallery/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "size"', '/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php', 37)
+ 2 SYSTEMPATH/View/View.php(240): include('/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Gallery\\index', [], true)
+ 5 ROOTPATH/Travo/Admin/Controllers/GalleryController.php(12): view('Travo\\Admin\\Views\\Gallery\\index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\GalleryController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\GalleryController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 07:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 07:00:29 --> ErrorException: Undefined array key "size"
+[Method: GET, Route: admin/gallery]
+in ROOTPATH/Travo/Admin/Views/Gallery/index.php on line 37.
+ 1 ROOTPATH/Travo/Admin/Views/Gallery/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "size"', '/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php', 37)
+ 2 SYSTEMPATH/View/View.php(240): include('/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Gallery\\index', [], true)
+ 5 ROOTPATH/Travo/Admin/Controllers/GalleryController.php(12): view('Travo\\Admin\\Views\\Gallery\\index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\GalleryController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\GalleryController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 07:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 07:00:34 --> Error: Call to a member function links() on null
+[Method: GET, Route: admin/comments]
+in ROOTPATH/Travo/Admin/Views/Comments/index.php on line 18.
+ 1 SYSTEMPATH/View/View.php(240): include()
+ 2 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Comments\\index', [], true)
+ 4 ROOTPATH/Travo/Admin/Controllers/CommentsController.php(28): view('Travo\\Admin\\Views\\Comments\\index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\CommentsController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\CommentsController))
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 07:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 07:00:38 --> ErrorException: Undefined array key "size"
+[Method: GET, Route: admin/gallery]
+in ROOTPATH/Travo/Admin/Views/Gallery/index.php on line 37.
+ 1 ROOTPATH/Travo/Admin/Views/Gallery/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "size"', '/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php', 37)
+ 2 SYSTEMPATH/View/View.php(240): include('/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Gallery\\index', [], true)
+ 5 ROOTPATH/Travo/Admin/Controllers/GalleryController.php(12): view('Travo\\Admin\\Views\\Gallery\\index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\GalleryController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\GalleryController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 07:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:03:48 --> CSRF token verified.
+DEBUG - 2026-11-02 07:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 07:04:42 --> ErrorException: Undefined array key "size"
+[Method: GET, Route: admin/gallery]
+in ROOTPATH/Travo/Admin/Views/Gallery/index.php on line 37.
+ 1 ROOTPATH/Travo/Admin/Views/Gallery/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "size"', '/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php', 37)
+ 2 SYSTEMPATH/View/View.php(240): include('/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Gallery\\index', [], true)
+ 5 ROOTPATH/Travo/Admin/Controllers/GalleryController.php(12): view('Travo\\Admin\\Views\\Gallery\\index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\GalleryController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\GalleryController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 07:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 07:04:44 --> Error: Call to a member function links() on null
+[Method: GET, Route: admin/comments]
+in ROOTPATH/Travo/Admin/Views/Comments/index.php on line 18.
+ 1 SYSTEMPATH/View/View.php(240): include()
+ 2 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Comments\\index', [], true)
+ 4 ROOTPATH/Travo/Admin/Controllers/CommentsController.php(28): view('Travo\\Admin\\Views\\Comments\\index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\CommentsController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\CommentsController))
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 07:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 07:06:31 --> Error: Call to a member function links() on null
+[Method: GET, Route: admin/comments]
+in ROOTPATH/Travo/Admin/Views/Comments/index.php on line 18.
+ 1 SYSTEMPATH/View/View.php(240): include()
+ 2 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Comments\\index', [], true)
+ 4 ROOTPATH/Travo/Admin/Controllers/CommentsController.php(28): view('Travo\\Admin\\Views\\Comments\\index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\CommentsController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\CommentsController))
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 07:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 07:06:36 --> ErrorException: Undefined array key "size"
+[Method: GET, Route: admin/gallery]
+in ROOTPATH/Travo/Admin/Views/Gallery/index.php on line 37.
+ 1 ROOTPATH/Travo/Admin/Views/Gallery/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "size"', '/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php', 37)
+ 2 SYSTEMPATH/View/View.php(240): include('/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Gallery\\index', [], true)
+ 5 ROOTPATH/Travo/Admin/Controllers/GalleryController.php(12): view('Travo\\Admin\\Views\\Gallery\\index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\GalleryController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\GalleryController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 07:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:06:58 --> CSRF token verified.
+DEBUG - 2026-11-02 07:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:07:11 --> CSRF token verified.
+DEBUG - 2026-11-02 07:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:07:19 --> CSRF token verified.
+DEBUG - 2026-11-02 07:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 07:08:25 --> ErrorException: Undefined array key "size"
+[Method: GET, Route: admin/gallery]
+in ROOTPATH/Travo/Admin/Views/Gallery/index.php on line 37.
+ 1 ROOTPATH/Travo/Admin/Views/Gallery/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "size"', '/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php', 37)
+ 2 SYSTEMPATH/View/View.php(240): include('/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Gallery\\index', [], true)
+ 5 ROOTPATH/Travo/Admin/Controllers/GalleryController.php(12): view('Travo\\Admin\\Views\\Gallery\\index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\GalleryController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\GalleryController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 07:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 07:08:28 --> Error: Call to a member function links() on null
+[Method: GET, Route: admin/comments]
+in ROOTPATH/Travo/Admin/Views/Comments/index.php on line 18.
+ 1 SYSTEMPATH/View/View.php(240): include()
+ 2 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Comments\\index', [], true)
+ 4 ROOTPATH/Travo/Admin/Controllers/CommentsController.php(28): view('Travo\\Admin\\Views\\Comments\\index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\CommentsController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\CommentsController))
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 07:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:08:40 --> CSRF token verified.
+DEBUG - 2026-11-02 07:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 07:09:01 --> Error: Call to a member function links() on null
+[Method: GET, Route: admin/comments]
+in ROOTPATH/Travo/Admin/Views/Comments/index.php on line 18.
+ 1 SYSTEMPATH/View/View.php(240): include()
+ 2 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Comments\\index', [], true)
+ 4 ROOTPATH/Travo/Admin/Controllers/CommentsController.php(28): view('Travo\\Admin\\Views\\Comments\\index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\CommentsController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\CommentsController))
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 07:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 07:09:14 --> ErrorException: Undefined array key "size"
+[Method: GET, Route: admin/gallery]
+in ROOTPATH/Travo/Admin/Views/Gallery/index.php on line 37.
+ 1 ROOTPATH/Travo/Admin/Views/Gallery/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "size"', '/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php', 37)
+ 2 SYSTEMPATH/View/View.php(240): include('/home/peacetonbajagain/Documents/News protal/News protal/Travo/Admin/Views/Gallery/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\Admin\\Views\\Gallery\\index', [], true)
+ 5 ROOTPATH/Travo/Admin/Controllers/GalleryController.php(12): view('Travo\\Admin\\Views\\Gallery\\index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\GalleryController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\GalleryController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 07:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:13:29 --> CSRF token verified.
+DEBUG - 2026-11-02 07:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:13:38 --> CSRF token verified.
+DEBUG - 2026-11-02 07:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:13:45 --> CSRF token verified.
+DEBUG - 2026-11-02 07:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:13:52 --> CSRF token verified.
+DEBUG - 2026-11-02 07:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:15:34 --> CSRF token verified.
+DEBUG - 2026-11-02 07:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:15:37 --> CSRF token verified.
+DEBUG - 2026-11-02 07:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:15:38 --> CSRF token verified.
+DEBUG - 2026-11-02 07:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:15:42 --> CSRF token verified.
+DEBUG - 2026-11-02 07:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:16:16 --> CSRF token verified.
+DEBUG - 2026-11-02 07:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:16:17 --> CSRF token verified.
+DEBUG - 2026-11-02 07:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:23:04 --> CSRF token verified.
+DEBUG - 2026-11-02 07:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:23:07 --> CSRF token verified.
+DEBUG - 2026-11-02 07:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:23:11 --> CSRF token verified.
+DEBUG - 2026-11-02 07:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:23:15 --> CSRF token verified.
+DEBUG - 2026-11-02 07:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:23:20 --> CSRF token verified.
+DEBUG - 2026-11-02 07:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:23:22 --> CSRF token verified.
+DEBUG - 2026-11-02 07:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:23:24 --> CSRF token verified.
+DEBUG - 2026-11-02 07:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:23:33 --> CSRF token verified.
+DEBUG - 2026-11-02 07:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:23:35 --> CSRF token verified.
+DEBUG - 2026-11-02 07:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:23:37 --> CSRF token verified.
+DEBUG - 2026-11-02 07:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:23:43 --> CSRF token verified.
+DEBUG - 2026-11-02 07:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:23:44 --> CSRF token verified.
+DEBUG - 2026-11-02 07:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:23:47 --> CSRF token verified.
+DEBUG - 2026-11-02 07:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:23:52 --> CSRF token verified.
+DEBUG - 2026-11-02 07:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:25:33 --> CSRF token verified.
+DEBUG - 2026-11-02 07:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:25:41 --> CSRF token verified.
+DEBUG - 2026-11-02 07:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:25:44 --> CSRF token verified.
+DEBUG - 2026-11-02 07:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:25:50 --> CSRF token verified.
+DEBUG - 2026-11-02 07:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:25:59 --> CSRF token verified.
+DEBUG - 2026-11-02 07:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:26:03 --> CSRF token verified.
+DEBUG - 2026-11-02 07:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:26:12 --> CSRF token verified.
+DEBUG - 2026-11-02 07:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:26:16 --> CSRF token verified.
+DEBUG - 2026-11-02 07:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:26:22 --> CSRF token verified.
+DEBUG - 2026-11-02 07:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:38:01 --> CSRF token verified.
+DEBUG - 2026-11-02 07:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:38:29 --> CSRF token verified.
+DEBUG - 2026-11-02 07:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:38:39 --> CSRF token verified.
+DEBUG - 2026-11-02 07:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:38:41 --> CSRF token verified.
+DEBUG - 2026-11-02 07:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:38:42 --> CSRF token verified.
+DEBUG - 2026-11-02 07:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:38:47 --> CSRF token verified.
+DEBUG - 2026-11-02 07:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:38:52 --> CSRF token verified.
+DEBUG - 2026-11-02 07:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:38:57 --> CSRF token verified.
+DEBUG - 2026-11-02 07:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:39:02 --> CSRF token verified.
+DEBUG - 2026-11-02 07:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:39:04 --> CSRF token verified.
+DEBUG - 2026-11-02 07:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 07:48:43 --> ParseError: syntax error, unexpected token "\"
+[Method: GET, Route: blog/submit]
+in ROOTPATH/Travo/FrontEnd/Controllers/PostController.php on line 72.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/peacetonbajagain/Documents/News protal/News protal/vendor/composer/../../Travo/FrontEnd/Controllers/PostController.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Travo\\FrontEnd\\Controllers\\PostController')
+ 3 SYSTEMPATH/Router/Router.php(792): class_exists('\\Travo\\FrontEnd\\Controllers\\PostController')
+ 4 SYSTEMPATH/Router/Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 5 SYSTEMPATH/CodeIgniter.php(852): CodeIgniter\Router\Router->handle('blog/submit')
+ 6 SYSTEMPATH/CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 07:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 07:49:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Travo\FrontEnd\Views\Post\submit.php"
+[Method: GET, Route: blog/submit]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Travo\\FrontEnd\\Views\\Post\\submit.php')
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('Travo\\FrontEnd\\Views\\Post\\submit', [], true)
+ 3 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(25): view('Travo\\FrontEnd\\Views\\Post\\submit', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->submit()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 07:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:52:05 --> CSRF token verified.
+DEBUG - 2026-11-02 07:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:53:04 --> CSRF token verified.
+DEBUG - 2026-11-02 07:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:55:37 --> CSRF token verified.
+DEBUG - 2026-11-02 07:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:58:34 --> CSRF token verified.
+DEBUG - 2026-11-02 07:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:59:00 --> CSRF token verified.
+DEBUG - 2026-11-02 07:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 07:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 07:59:06 --> CSRF token verified.
+DEBUG - 2026-11-02 07:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-02 08:04:40 --> CSRF token verified.
+DEBUG - 2026-11-02 08:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-02 08:04:44 --> Table 'newsportal.story_submissions' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 294.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(294): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = \'pending\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = \'pending\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = \'pending\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1744): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = :story_submissions.status:', [...], false)
+ 5 SYSTEMPATH/Model.php(526): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH/BaseModel.php(1333): CodeIgniter\Model->countAllResults(false)
+ 7 ROOTPATH/Travo/Admin/Controllers/StorySubmissionsController.php(32): CodeIgniter\BaseModel->paginate(20)
+ 8 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\StorySubmissionsController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\StorySubmissionsController))
+10 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 08:04:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'newsportal.story_submissions' doesn't exist
+[Method: GET, Route: admin/submissions]
+in SYSTEMPATH/Database/BaseConnection.php on line 860.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1744): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = :story_submissions.status:', [...], false)
+ 2 SYSTEMPATH/Model.php(526): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH/BaseModel.php(1333): CodeIgniter\Model->countAllResults(false)
+ 4 ROOTPATH/Travo/Admin/Controllers/StorySubmissionsController.php(32): CodeIgniter\BaseModel->paginate(20)
+ 5 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\StorySubmissionsController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\StorySubmissionsController))
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 08:04:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'newsportal.story_submissions' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 304.
+ 1 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = \'pending\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = \'pending\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1744): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = :story_submissions.status:', [...], false)
+ 4 SYSTEMPATH/Model.php(526): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 SYSTEMPATH/BaseModel.php(1333): CodeIgniter\Model->countAllResults(false)
+ 6 ROOTPATH/Travo/Admin/Controllers/StorySubmissionsController.php(32): CodeIgniter\BaseModel->paginate(20)
+ 7 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\StorySubmissionsController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\StorySubmissionsController))
+ 9 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 08:04:44 --> [Caused by] mysqli_sql_exception: Table 'newsportal.story_submissions' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 294.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(294): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = \'pending\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = \'pending\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = \'pending\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1744): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = :story_submissions.status:', [...], false)
+ 5 SYSTEMPATH/Model.php(526): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH/BaseModel.php(1333): CodeIgniter\Model->countAllResults(false)
+ 7 ROOTPATH/Travo/Admin/Controllers/StorySubmissionsController.php(32): CodeIgniter\BaseModel->paginate(20)
+ 8 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\StorySubmissionsController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\StorySubmissionsController))
+10 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 08:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-02 08:04:50 --> Table 'newsportal.story_submissions' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 294.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(294): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = \'pending\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = \'pending\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = \'pending\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1744): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = :story_submissions.status:', [...], false)
+ 5 SYSTEMPATH/Model.php(526): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH/BaseModel.php(1333): CodeIgniter\Model->countAllResults(false)
+ 7 ROOTPATH/Travo/Admin/Controllers/StorySubmissionsController.php(32): CodeIgniter\BaseModel->paginate(20)
+ 8 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\StorySubmissionsController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\StorySubmissionsController))
+10 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 08:04:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'newsportal.story_submissions' doesn't exist
+[Method: GET, Route: admin/submissions]
+in SYSTEMPATH/Database/BaseConnection.php on line 860.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1744): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = :story_submissions.status:', [...], false)
+ 2 SYSTEMPATH/Model.php(526): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH/BaseModel.php(1333): CodeIgniter\Model->countAllResults(false)
+ 4 ROOTPATH/Travo/Admin/Controllers/StorySubmissionsController.php(32): CodeIgniter\BaseModel->paginate(20)
+ 5 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\StorySubmissionsController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\StorySubmissionsController))
+ 7 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 08:04:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'newsportal.story_submissions' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 304.
+ 1 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = \'pending\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = \'pending\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1744): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = :story_submissions.status:', [...], false)
+ 4 SYSTEMPATH/Model.php(526): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 SYSTEMPATH/BaseModel.php(1333): CodeIgniter\Model->countAllResults(false)
+ 6 ROOTPATH/Travo/Admin/Controllers/StorySubmissionsController.php(32): CodeIgniter\BaseModel->paginate(20)
+ 7 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\StorySubmissionsController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\StorySubmissionsController))
+ 9 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-02 08:04:50 --> [Caused by] mysqli_sql_exception: Table 'newsportal.story_submissions' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 294.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(294): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = \'pending\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = \'pending\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = \'pending\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1744): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `story_submissions`
+LEFT JOIN `users` ON `users`.`id` = `story_submissions`.`user_id`
+WHERE `story_submissions`.`status` = :story_submissions.status:', [...], false)
+ 5 SYSTEMPATH/Model.php(526): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH/BaseModel.php(1333): CodeIgniter\Model->countAllResults(false)
+ 7 ROOTPATH/Travo/Admin/Controllers/StorySubmissionsController.php(32): CodeIgniter\BaseModel->paginate(20)
+ 8 SYSTEMPATH/CodeIgniter.php(974): Travo\Admin\Controllers\StorySubmissionsController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\Admin\Controllers\StorySubmissionsController))
+10 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-02 08:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 08:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -9,8 +9,13 @@ class PostModel extends Model
     protected $returnType = 'array';
     protected $useSoftDeletes = true;
     protected $useTimestamps = true;
-    protected $allowedFields = ['author_id', 'title', 'slug', 'content', 'excerpt', 'thumbnail_id', 'is_featured',
-        'is_breaking_news', 'is_trending', 'meta_title', 'meta_desc', 'author_name', 'view_count', 'status', 'published_at'];
+    protected $allowedFields = [
+        'author_id', 'title', 'slug', 'content', 'excerpt', 'thumbnail_id', 'is_featured',
+        'show_thumbnail_in_featured', 'is_breaking_news', 'breaking_news_expires_at', 'is_trending',
+        'is_pinned', 'post_type', 'meta_title', 'meta_desc', 'source_name', 'source_url',
+        'featured_video', 'gallery_images', 'tags', 'author_name', 'author_role', 'author_bio',
+        'author_avatar', 'view_count', 'status', 'published_at', 'created_at', 'updated_at',
+    ];
 
     /** Posts with a stable first category for existing display surfaces. */
     public function baseSelect(): static
@@ -31,7 +36,11 @@ class PostModel extends Model
 
     public function published(): static
     {
-        return $this->baseSelect()->where('posts.status', 1)->where('posts.published_at <=', date('Y-m-d H:i:s'))
+        return $this->baseSelect()->where('posts.status', 1)
+            ->groupStart()
+                ->where('posts.published_at', null)
+                ->orWhere('posts.published_at <=', date('Y-m-d H:i:s'))
+            ->groupEnd()
             ->orderBy('posts.published_at', 'DESC');
     }
 
@@ -51,5 +60,13 @@ class PostModel extends Model
             $db->table('post_categories')->insert(['post_id' => $postId, 'category_id' => $categoryId]);
         }
         $db->transComplete();
+    }
+
+    public function incrementViewCount(int $postId): bool
+    {
+        return $this->builder()
+            ->set('view_count', 'view_count + 1', false)
+            ->where('id', $postId)
+            ->update();
     }
 }
