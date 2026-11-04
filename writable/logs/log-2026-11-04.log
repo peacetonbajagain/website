@@ -2,3 +2,626 @@ DEBUG - 2026-11-04 06:13:26 --> Session: Class initialized using 'CodeIgniter\Se
 DEBUG - 2026-11-04 06:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-11-04 06:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-11-04 06:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-04 06:26:49 --> Error: Class "Travo\FrontEnd\Controllers\LIbraries\StaticPageCache" not found
+[Method: GET, Route: blog/digital-payments-work-best-when-small-businesses-have-a-choice]
+in ROOTPATH/Travo/FrontEnd/Traits/CacheTrait.php on line 11.
+ 1 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(116): Travo\FrontEnd\Controllers\PostController->serveStaticPage()
+ 2 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('digital-payments-work-best-when-small-businesses-have-a-choice')
+ 3 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-04 06:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-04 06:26:54 --> Error: Class "Travo\FrontEnd\Controllers\LIbraries\StaticPageCache" not found
+[Method: GET, Route: blog/digital-payments-work-best-when-small-businesses-have-a-choice]
+in ROOTPATH/Travo/FrontEnd/Traits/CacheTrait.php on line 11.
+ 1 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(116): Travo\FrontEnd\Controllers\PostController->serveStaticPage()
+ 2 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('digital-payments-work-best-when-small-businesses-have-a-choice')
+ 3 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-04 06:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-04 06:26:59 --> Error: Class "Travo\FrontEnd\Controllers\LIbraries\StaticPageCache" not found
+[Method: GET, Route: blog/lets-get-ready-to-rumble]
+in ROOTPATH/Travo/FrontEnd/Traits/CacheTrait.php on line 11.
+ 1 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(116): Travo\FrontEnd\Controllers\PostController->serveStaticPage()
+ 2 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('lets-get-ready-to-rumble')
+ 3 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-04 06:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-04 06:27:06 --> Error: Class "Travo\FrontEnd\Controllers\LIbraries\StaticPageCache" not found
+[Method: GET, Route: blog/hello-stocktraders]
+in ROOTPATH/Travo/FrontEnd/Traits/CacheTrait.php on line 11.
+ 1 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(116): Travo\FrontEnd\Controllers\PostController->serveStaticPage()
+ 2 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('hello-stocktraders')
+ 3 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-04 06:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-04 06:27:08 --> Error: Class "Travo\FrontEnd\Controllers\LIbraries\StaticPageCache" not found
+[Method: GET, Route: blog/hello-stocktraders]
+in ROOTPATH/Travo/FrontEnd/Traits/CacheTrait.php on line 11.
+ 1 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(116): Travo\FrontEnd\Controllers\PostController->serveStaticPage()
+ 2 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('hello-stocktraders')
+ 3 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-04 06:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-04 06:27:11 --> Error: Class "Travo\FrontEnd\Controllers\LIbraries\StaticPageCache" not found
+[Method: GET, Route: blog/lets-get-ready-to-rumble]
+in ROOTPATH/Travo/FrontEnd/Traits/CacheTrait.php on line 11.
+ 1 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(116): Travo\FrontEnd\Controllers\PostController->serveStaticPage()
+ 2 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('lets-get-ready-to-rumble')
+ 3 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-04 06:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-04 06:29:02 --> Error: Class "Travo\FrontEnd\Controllers\LIbraries\StaticPageCache" not found
+[Method: GET, Route: blog/three-questions-every-local-budget-should-answer]
+in ROOTPATH/Travo/FrontEnd/Traits/CacheTrait.php on line 11.
+ 1 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(116): Travo\FrontEnd\Controllers\PostController->serveStaticPage()
+ 2 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('three-questions-every-local-budget-should-answer')
+ 3 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-04 06:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-04 06:50:21 --> CSRF token verified.
+DEBUG - 2026-11-04 06:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-04 06:50:25 --> CSRF token verified.
+DEBUG - 2026-11-04 06:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-04 06:50:29 --> CSRF token verified.
+DEBUG - 2026-11-04 06:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-04 06:50:33 --> CSRF token verified.
+DEBUG - 2026-11-04 06:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-04 06:50:46 --> CSRF token verified.
+DEBUG - 2026-11-04 06:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-04 06:50:48 --> CSRF token verified.
+DEBUG - 2026-11-04 06:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 06:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-04 07:02:16 --> CSRF token verified.
+DEBUG - 2026-11-04 07:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-04 07:02:19 --> CSRF token verified.
+DEBUG - 2026-11-04 07:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-04 07:03:55 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: blog/comment]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('blog/comment', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-04 07:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-04 07:10:10 --> CSRF token verified.
+DEBUG - 2026-11-04 07:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-04 07:12:36 --> CSRF token verified.
+DEBUG - 2026-11-04 07:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-04 07:12:42 --> CSRF token verified.
+DEBUG - 2026-11-04 07:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-04 07:13:05 --> CSRF token verified.
+DEBUG - 2026-11-04 07:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-04 07:13:20 --> CSRF token verified.
+DEBUG - 2026-11-04 07:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-04 07:13:31 --> CSRF token verified.
+DEBUG - 2026-11-04 07:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-04 07:48:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 294.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(294): mysqli->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-04 07:48:50\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-04 07:48:50\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-04 07:48:50\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 8 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 9 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('a-practical-checklist-for-responsible-ai-in-a-newsroom')
+10 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+11 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-04 07:48:50 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+[Method: GET, Route: blog/a-practical-checklist-for-responsible-ai-in-a-newsroom]
+in SYSTEMPATH/Database/BaseConnection.php on line 860.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 5 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('a-practical-checklist-for-responsible-ai-in-a-newsroom')
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-04 07:48:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 304.
+ 1 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-04 07:48:50\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 2 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-04 07:48:50\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 7 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 8 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('a-practical-checklist-for-responsible-ai-in-a-newsroom')
+ 9 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+10 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-04 07:48:50 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 294.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(294): mysqli->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-04 07:48:50\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-04 07:48:50\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-04 07:48:50\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 8 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 9 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('a-practical-checklist-for-responsible-ai-in-a-newsroom')
+10 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+11 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-04 07:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-04 07:49:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 294.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(294): mysqli->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-04 07:49:01\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-04 07:49:01\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-04 07:49:01\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 8 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 9 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('a-practical-checklist-for-responsible-ai-in-a-newsroom')
+10 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+11 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-04 07:49:01 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+[Method: GET, Route: blog/a-practical-checklist-for-responsible-ai-in-a-newsroom]
+in SYSTEMPATH/Database/BaseConnection.php on line 860.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 5 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 6 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('a-practical-checklist-for-responsible-ai-in-a-newsroom')
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-04 07:49:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 304.
+ 1 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-04 07:49:01\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 2 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-04 07:49:01\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 7 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 8 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('a-practical-checklist-for-responsible-ai-in-a-newsroom')
+ 9 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+10 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+CRITICAL - 2026-11-04 07:49:01 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1' at line 9
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 294.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(294): mysqli->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-04 07:49:01\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(905): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-04 07:49:01\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(822): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = 1
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= \'2026-11-04 07:49:01\'
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT `posts`.`title`, `posts`.`slug`
+FROM `posts`
+WHERE `posts`.`status` = :posts.status:
+AND   (
+`posts`.`published_at` IS NULL
+OR `posts`.`published_at` <= :posts.published_at:
+ )
+AND `posts`.`created_at` >
+AND `posts`.`deleted_at` IS NULL
+ORDER BY `posts`.`created_at` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Model.php(298): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(202): CodeIgniter\BaseModel->first()
+ 8 ROOTPATH/Travo/FrontEnd/Controllers/PostController.php(204): Travo\FrontEnd\Controllers\PostController->Travo\FrontEnd\Controllers\{closure}('>')
+ 9 SYSTEMPATH/CodeIgniter.php(974): Travo\FrontEnd\Controllers\PostController->PostDetails('a-practical-checklist-for-responsible-ai-in-a-newsroom')
+10 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(Travo\FrontEnd\Controllers\PostController))
+11 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/peacetonbajagain/Documents/News protal/News protal/public/index.php')
+DEBUG - 2026-11-04 07:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-11-04 07:49:32 --> CSRF token verified.
+DEBUG - 2026-11-04 07:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-04 07:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

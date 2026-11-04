@@ -276,7 +276,7 @@ class CategoriesController extends Controller
     private function invalidateStaticCache(?string $slug = null): void
     {
         try {
-            $static = new \Travo\FrontEnd\Controllers\LIbraries\StaticPageCache();
+            $static = new \Travo\FrontEnd\LIbraries\StaticPageCache();
             $static->deletePath('index');
             $static->deletePath('blog');
             if (!empty($slug)) {

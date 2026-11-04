@@ -1,5 +1,5 @@
 <?php
-namespace Travo\FrontEnd\Controllers\LIbraries;
+namespace Travo\FrontEnd\LIbraries;
 
 class InfoLibrary
 {

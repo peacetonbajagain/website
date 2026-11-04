@@ -551,7 +551,7 @@ class PostsController extends Controller
         // re-caches only what changed — no full wipe.
         try {
             $post = $this->postModel->withDeleted()->find($postId);
-            $static = new \Travo\FrontEnd\Controllers\LIbraries\StaticPageCache();
+            $static = new \Travo\FrontEnd\LIbraries\StaticPageCache();
 
             if ($post && !empty($post['slug'])) {
                 $static->deletePath('news/' . $post['slug']);

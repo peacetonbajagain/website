@@ -22,9 +22,9 @@ class UsersController extends Controller
 
     public function index()
     {
-        $userModel    = model(UserModel::class);
-        $keyword      = $this->request->getGet('keyword');
-        $roleFilter   = $this->request->getGet('role');
+        $userModel = model(UserModel::class);
+        $keyword = $this->request->getGet('keyword');
+        $roleFilter = $this->request->getGet('role');
         $statusFilter = $this->request->getGet('status');
 
         $builder = $userModel
@@ -73,10 +73,10 @@ class UsersController extends Controller
 
         return view('Travo\Admin\Views\Users\index', [
             'page_heading' => 'Manage Users',
-            'users'        => $users,
-            'pager'        => $pager,
-            'keyword'      => $keyword,
-            'roleFilter'   => $roleFilter,
+            'users' => $users,
+            'pager' => $pager,
+            'keyword' => $keyword,
+            'roleFilter' => $roleFilter,
             'statusFilter' => $statusFilter,
             'roleOptions' => $groups,
             'rolePermissions' => $rolePermissions,
@@ -332,10 +332,10 @@ class UsersController extends Controller
         $group = (string) $this->request->getPost('group');
         $knownGroups = setting('AuthGroups.groups') ?? config('AuthGroups')->groups;
 
-        if (! $actor?->can('users.edit') || $user === null || ! isset($knownGroups[$group])) {
+        if (!$actor?->can('users.edit') || $user === null || !isset($knownGroups[$group])) {
             return redirect()->to('admin/users')->with('error', lang('notAuthorized'));
         }
-        if (($user->inGroup('superadmin', 'admin', 'developer') || \in_array($group, ['superadmin', 'admin', 'developer'], true)) && ! $canManageAdmins) {
+        if (($user->inGroup('superadmin', 'admin', 'developer') || \in_array($group, ['superadmin', 'admin', 'developer'], true)) && !$canManageAdmins) {
             return redirect()->to('admin/users')->with('error', lang('notAuthorized'));
         }
 
@@ -352,14 +352,14 @@ class UsersController extends Controller
         $userModel = new UserModel();
         $user = $userModel->find($userId);
 
-        if (! $actor?->can('users.edit') || $user === null) {
+        if (!$actor?->can('users.edit') || $user === null) {
             return redirect()->to('admin/users')->with('error', lang('notAuthorized'));
         }
-        if ($user->inGroup('superadmin', 'admin', 'developer') && ! $canManageAdmins) {
+        if ($user->inGroup('superadmin', 'admin', 'developer') && !$canManageAdmins) {
             return redirect()->to('admin/users')->with('error', lang('notAuthorized'));
         }
 
-        $user->active = ! $user->active;
+        $user->active = !$user->active;
         $userModel->save($user);
         log_activity('status_change', 'users', $userId, $user->active ? 'Activated user' : 'Deactivated user');
 
@@ -456,7 +456,7 @@ class UsersController extends Controller
 
             return redirect()->back()->with('error', lang('unknownError'));
         }
-        log_activity('delete', 'users', (int) $user->id, 'Deleted user: ' . $user->username);
+        log_activity('delete', 'users', (int) $userId, "Deleted user: " . $user->username);
 
         return redirect()->back()->with('message', lang('resourceDeleted', [lang('Users.user')]));
     }

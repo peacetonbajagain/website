@@ -120,7 +120,7 @@ class Settings extends Controller
         $actions = setting('Auth.actions') ?? [];
         foreach (['login' => 'email2FA', 'register' => 'emailActivation'] as $action => $field) {
             $posted = $this->request->getPost($field);
-            if ($posted === null || $posted === '') {
+              if (empty($posted)) {
                 $actions[$action] = null;
             } elseif (
                 \is_string($posted)
@@ -436,7 +436,7 @@ class Settings extends Controller
     public function clearCache()
     {
         helper('filesystem');
-        $staticPageCache = new \Travo\FrontEnd\Controllers\LIbraries\StaticPageCache();
+        $staticPageCache = new \Travo\FrontEnd\LIbraries\StaticPageCache();
         $staticPageCache->purge();
         $cachePath = WRITEPATH . 'cache/';
         if (delete_files($cachePath, true)) {
@@ -686,7 +686,7 @@ class Settings extends Controller
     private function purgePageCache(): void
     {
         helper('filesystem');
-        $staticPageCache = new \Travo\FrontEnd\Controllers\LIbraries\StaticPageCache();
+        $staticPageCache = new \Travo\FrontEnd\LIbraries\StaticPageCache();
         $staticPageCache->purge();
         delete_files(WRITEPATH . 'cache/', false);
         \Config\Services::cache()->clean();

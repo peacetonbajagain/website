@@ -1,6 +1,6 @@
 <?php
 
-namespace Travo\FrontEnd\Controllers\LIbraries;
+namespace Travo\FrontEnd\LIbraries;
 
 use Config\Services;
 
@@ -23,7 +23,7 @@ class StaticPageCache
     /** Path prefixes that are never cached (dynamic / private). */
     private const EXCLUDED_PREFIXES = [
         'admin', 'auth', 'login', 'register', 'logout', 'dashboard',
-        'search', 'api', 'uploader', 'view',
+        'search', 'api', 'uploader', 'view', 'blog',
     ];
 
     /** Page query parameter used for pagination (cached per page number). */
@@ -167,7 +167,7 @@ class StaticPageCache
         }
 
         $first = explode('/', $path)[0] ?? '';
-        if (in_array(strtolower($first), self::EXCLUDED_PREFIXES, true)) {
+        if (\in_array(strtolower($first), self::EXCLUDED_PREFIXES, true)) {
             return null;
         }
 
